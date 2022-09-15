@@ -1,0 +1,57 @@
+.video-container {
+    width: 100%;
+    background: #fff;
+    overflow:hidden;
+}
+.video-container video {
+    position: relative;
+    top: 0;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, 0);
+}
+
+.mute-button {
+    position: absolute;
+    right: 1vw;
+    margin-top: 1vw;
+    z-index: 999;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.mute-button > img {
+    width: 5vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .mute-button > img {
+        width: 10vw;
+    }
+}
+
+/* Old shadow dom for play button */
+
+*::-webkit-media-controls-play-button {
+    display: none !important;
+    -webkit-appearance: none !important;
+}
+
+/* New shadow dom for play button */
+
+/* This one works! */
+
+*::-webkit-media-controls-start-playback-button {
+    display: none !important;
+    -webkit-appearance: none !important;
+}
+*::-webkit-media-controls-panel {
+    display: none !important;
+    -webkit-appearance: none !important;
+}
+.video-react .video-react-big-play-button {
+    display: none !important;
+}
+.video-react-progress-control .video-react-control {
+    display: none !important;
+}

@@ -1,0 +1,58 @@
+
+.dontBeSection {
+    background-color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    height: max-content;
+    position: relative;
+
+}
+
+.dontBeSection > button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 12px 40px;
+    margin-top: 8vh;
+
+}
+
+
+.dontBeSection_bg {
+    margin-top: -20vh;
+    margin-bottom: -20vh;
+    /* position: relative; */
+}
+
+
+.dontBeSection_bg img {
+    max-width: 100%;
+}
+
+.buttonsectionheading {
+    font-size: 3.6vw;
+    font-weight: 800;
+    margin: auto;
+    /* width: 80%; */
+    font-family: sans-serif;
+}
+.buttonsection > button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 12px 40px;
+    margin-top: 8vh;
+
+}
+.buttonsectiondesc {
+    width: 84%;
+    margin: auto;
+    overflow-wrap: break-word;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+}

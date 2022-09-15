@@ -1,0 +1,33 @@
+.sep-choose {
+    position:absolute;
+    width: 100vw;
+    height: 10vw;
+    z-index:2!important;
+    background-color: #ff5bf8;
+}
+.choose-section {
+    position: relative;
+    margin-top: 5vw;
+    padding: 15vh 0 10vh 0;
+    z-index:2!important;
+    background-color: #00fff8;
+
+
+}
+.choose-section > button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 12px 40px;
+    margin-top: 8vh;
+
+}
+.cta-heading {
+    font-size: 3.6vw;
+    font-weight: 800;
+    margin: auto;
+    /* width: 80%; */
+    font-family: sans-serif;
+}

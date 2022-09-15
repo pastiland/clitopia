@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+
+
+
+.Bg_Blue_1 {
+    display:block;
+    position: relative;
+    width: 100vw;
+    bottom:0!important;
+    //background-image: url("./assets/img/bg-blue-1.png");
+}
+.Bg_mutlpleNfts {
+    background-image: url("./assets/img/intro-random.png");
+    background-size: cover;
+    margin-bottom: -10px;
+    position:fixed;
+    top:0;
+    bottom:0;
+    z-index:-1;
+    width: 100vw;
+    height:100vh;
+}
+.Bg_Pink {
+    max-width: 100%;
+    display: block;
+}
+
+
+.intro {
+    position: relative;
+    margin-top: -15vw;
+    margin-bottom: -35vw;
+    z-index: 59;
+    width: 30vw;
+    min-width: 30%;
+    align-items: center;
+}
+.circle {
+    position: relative;
+    margin-top: -18%;
+    z-index: 59;
+    width: 200px;
+
+}
+
+.circle_div,
+.about_eye_mobile,
+.eye_btnsction_mobile {
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 720px) {
+    .intro {
+        min-width: 50%;
+        margin-bottom:-80vw;
+    }
+}

@@ -1,0 +1,76 @@
+section {
+    display: block;
+    width: 100vw;
+    height:auto;
+    overflow-x: hidden;
+    z-index: 0!important;
+}
+.section-title {
+    margin: 5vh auto;
+    font-family: MyriadPro-BoldSemiExt;
+    font-weight: 800;
+    font-size: 5vw;
+    text-align: center;
+}
+
+#intro {
+    position: relative;
+    margin:0;
+    z-index: 999!important;
+}
+.intro {
+    position: relative;
+    z-index: 999!important;
+}
+
+#about {
+    position: relative;
+    background-image: url("../../assets/img/bg-pink-1.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100vw;
+    z-index:2!important;
+    margin-top: 40vh;
+}
+#choose {
+    position: relative;
+    background-image: url("../../assets/img/bg-blue-2.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100vw;
+    z-index:2!important;
+}
+#legendary {
+    position: relative;
+    background-image: url("../../assets/img/bg-blue-2.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100vw;
+    z-index:2!important;
+}
+#manifesto {
+    position: relative;
+    background-image: url("../../assets/img/bg-pink-2.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100vw;
+    z-index:2!important;
+}
+#team {
+    position: relative;
+    background-image: url("../../assets/img/bg-team.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    z-index:2!important;
+}
+#footer {
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    #team {
+        padding-top:10vw;
+    }
+}

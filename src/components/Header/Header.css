@@ -1,0 +1,29 @@
+.appbar {
+    background-image: url("../../assets/img/topnav-bg.png") !important;
+    max-width: 100%;
+    color: #ff5bf8 !important;
+}
+.connect {
+    background-image: url("../../assets/img/topnav-connect.png") !important;
+    font-weight: 900 !important;
+    background-size: cover;
+    color: white !important;
+    width: 160px;
+    font-family: Acumin-Variable-Concept;
+}
+.navItems {
+    color: black !important;
+    font-weight: 900 !important;
+    font-family: Acumin-Variable-Concept !important;
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+}
+
+@media only screen and (max-width: 1300px) {
+    .navItems {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+
+}

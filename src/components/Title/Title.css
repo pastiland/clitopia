@@ -1,0 +1,22 @@
+.title-container {
+    z-index: 60;
+    width: 100vw;
+    text-align:center;
+    background-color: #00fff8;
+    padding:10vh 0 0 0;
+}
+.title-container img {
+    width: 60vw;
+    height: auto;
+}
+.subtitle-container {
+    position: relative;
+    display: block;
+    padding:2vh 0 10vh 0;
+    background-color: #00fff8;
+}
+.subtitle {
+    font-family: MyriadPro-BoldSemiExt !important;
+    font-weight: 900;
+    font-size: 4vw;
+}

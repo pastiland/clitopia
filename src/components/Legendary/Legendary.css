@@ -1,0 +1,38 @@
+.sep-legendary {
+    position:absolute;
+    width: 100vw;
+    height: 20vw;
+    z-index:2!important;
+    background-color: #fff;
+}
+.legendary-section {
+    position: relative;
+    margin-top: 5vw;
+    padding: 25vh 0 10vh 0;
+    z-index:2!important;
+    background-color: #00fff8;
+}
+.legendary-content {
+
+    padding: 0 15vh;
+}
+
+.about_eye_legendary {
+    z-index: 60;
+    position: relative;
+}
+.about_eye_legendary > img {
+    position: absolute;
+    top: -11vh;
+}
+.eye_legendary_desktop {
+    display: block;
+    position: relative;
+}
+.eye_legendary_desktop > img {
+    display: block;
+    position: absolute;
+    right: 25vw;
+    width: 80px;
+    top: -16vh;
+}

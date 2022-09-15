@@ -2,6 +2,7 @@
   "name": "clitopia",
   "version": "2.0",
   "private": true,
+  "start_url": ".",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",

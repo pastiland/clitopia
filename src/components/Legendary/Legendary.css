@@ -5,34 +5,32 @@
     z-index:2!important;
     background-color: #fff;
 }
-.legendary-section {
+.legendary-container {
     position: relative;
     margin-top: 5vw;
-    padding: 25vh 0 10vh 0;
+    padding: 20vw 0 10vw 0;
     z-index:2!important;
     background-color: #00fff8;
 }
 .legendary-content {
-
-    padding: 0 15vh;
+    padding: 0 15vw;
 }
-
-.about_eye_legendary {
-    z-index: 60;
-    position: relative;
-}
-.about_eye_legendary > img {
-    position: absolute;
-    top: -11vh;
-}
-.eye_legendary_desktop {
-    display: block;
-    position: relative;
-}
-.eye_legendary_desktop > img {
+.legendary-eye {
     display: block;
     position: absolute;
-    right: 25vw;
-    width: 80px;
-    top: -16vh;
+    top:0;
+    left:20vw;
+    margin-top:-4px;
+}
+.legendary-eye img {
+    width: 60px
+}
+
+@media only screen and (max-width: 600px) { 
+    .legendary-eye img {
+        width: 40px;
+    }
+    .legendary-content {
+        padding: 0 5vw;
+    }
 }

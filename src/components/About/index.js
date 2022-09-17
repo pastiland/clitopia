@@ -1,6 +1,5 @@
 import React from "react"
 import useMediaQuery from "@mui/material/useMediaQuery"
-import buttonsection_bg from "../../assets/img/bg-blue-2.png"
 import Eye from "../../assets/img/eye.png"
 import Bg_Pink from "../../assets/img/bg-pink-1.png"
 import "./About.css"

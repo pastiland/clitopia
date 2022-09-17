@@ -12,12 +12,8 @@ import Manifesto from "../Manifesto"
 import Team from "../Team"
 import Footer from "../Footer"
 import Circle from "../../assets/img/circle-pink.png"
-import Eye from "../../assets/img/eye.png"
-
 import Bg_Blue_1 from "../../assets/img/bg-blue-1.png"
 import Intro from "../../assets/img/intro-pussy.png"
-import Bg_Pink from "../../assets/img/bg-pink-1.png"
-import Bg_White from "../../assets/img/bg-white.png"
 import "./Home.css"
 
 const Home = () => {

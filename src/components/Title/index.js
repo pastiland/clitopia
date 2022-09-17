@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../../assets/img/intro-title.webp"
-import "react-lazy-load-image-component/src/effects/blur.css";
 import "./Title.css"
 
 const Title = () => {

@@ -55,7 +55,21 @@ ol li:before {
     font-weight: 700;
     display: inline-block;
 }
+.manifesto-eye {
+    display: block;
+    position: absolute;
+    bottom:0;
+    right:20vw;
+}
+.manifesto-eye img {
+    width: 60px;
+}
 
-@media only screen and (max-width: 420px) { 
-
+@media only screen and (max-width: 600px) { 
+    .manifesto-eye img {
+        width: 50px;
+    }
+    .manifesto-container {
+        padding: 15vh 2vh 15vh 8vh;
+    }
 }

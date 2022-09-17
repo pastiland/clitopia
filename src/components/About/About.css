@@ -42,6 +42,10 @@
 
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
 
+    .about-container {
+        position: relative;
+        padding: 20vw 10vw;
+    }
 }

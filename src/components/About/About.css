@@ -10,7 +10,7 @@
 }
 .about-container {
     position: relative;
-    padding: 20vh;
+    padding: 20vw;
     background-color: #ff5bf8;
     background-image: url("../../assets/img/circle-pink.png");
     background-position: left bottom;
@@ -19,8 +19,8 @@
 }
 .section-content {
     /* font-weight: 600; */
-    letter-spacing: 0.1vh;
-    line-height: 4vh;
+    letter-spacing: 0.1vw;
+    line-height: 4vw;
     color: white;
     text-align: justify;
     font-family: Myriad-Bold !important;
@@ -48,7 +48,7 @@
 @media only screen and (max-width: 600px) {
 
     .about-container {
-        padding: 15vh 2vh 15vh 8vh;
+        padding: 15vw 2vw 15vw 8vw;
     }
     .manifesto-eye img {
         width: 50px;

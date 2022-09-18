@@ -1,5 +1,5 @@
 .footer-banner {
-    height: 50vh;
+    height: 50vw;
     overflow: hidden;
     background-image: url("../../assets/img/bottom-banner.png");
     background-size: cover;
@@ -30,14 +30,14 @@
     margin-left: auto;
     margin-right: auto;
     margin: 5vw 0 12vw 0;
-    font-size: 3vh;
+    font-size: 3vw;
 
 }
 .footer-logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-bottom: 10vh; */
+    /* margin-bottom: 10vw; */
 }
 .footer-logo img {
     width: 15vw;

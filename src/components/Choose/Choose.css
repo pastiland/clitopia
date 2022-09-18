@@ -8,7 +8,7 @@
 .choose-section {
     position: relative;
     margin-top: 5vw;
-    padding: 15vh 0 10vh 0;
+    padding: 15vw 0 10vw 0;
     z-index:2!important;
     background-color: #00fff8;
 
@@ -21,7 +21,7 @@
     letter-spacing: 2px;
     font-size: 20px;
     padding: 12px 40px;
-    margin-top: 8vh;
+    margin-top: 8vw;
 
 }
 .cta-heading {

@@ -1,8 +1,8 @@
 
 .dontBeSection {
     background-color: white;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
     height: max-content;
     position: relative;
 
@@ -15,14 +15,14 @@
     letter-spacing: 2px;
     font-size: 20px;
     padding: 12px 40px;
-    margin-top: 8vh;
+    margin-top: 8vw;
 
 }
 
 
 .dontBeSection_bg {
-    margin-top: -20vh;
-    margin-bottom: -20vh;
+    margin-top: -20vw;
+    margin-bottom: -20vw;
     /* position: relative; */
 }
 
@@ -45,7 +45,7 @@
     letter-spacing: 2px;
     font-size: 20px;
     padding: 12px 40px;
-    margin-top: 8vh;
+    margin-top: 8vw;
 
 }
 .buttonsectiondesc {

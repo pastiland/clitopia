@@ -8,7 +8,7 @@
 .team-container {
     position: relative;
     margin: 0;
-    padding: 25vh 5vh;
+    padding: 25vw 5vw;
     z-index:2!important;
 }
 .team-member {
@@ -42,7 +42,7 @@
 @media only screen and (max-width: 720px) {
 
     .team-container {
-        padding: 15vh 3vh;
+        padding: 15vw 3vw;
     }
     .team-member {
         width: 90vw;

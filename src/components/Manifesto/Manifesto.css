@@ -8,13 +8,13 @@
 .manifesto-container {
     position: relative;
     margin-top: 16vw;
-    padding: 25vh 15vh;
+    padding: 25vw 15vw;
     z-index:2!important;
     background-color: #ff5bf8;
     background-image: url("../../assets/img/circle-yellow.png");
     background-position: left center;
     background-repeat: no-repeat;
-    background-size:50vh;
+    background-size:50vw;
     z-index:19999!important;
 }
 ol {
@@ -70,6 +70,6 @@ ol li:before {
         width: 50px;
     }
     .manifesto-container {
-        padding: 15vh 2vh 15vh 8vh;
+        padding: 15vw 2vw 15vw 8vw;
     }
 }

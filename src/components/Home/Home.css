@@ -6,7 +6,7 @@ section {
     z-index: 0!important;
 }
 .section-title {
-    margin: 5vh auto;
+    margin: 5vw auto;
     font-family: MyriadPro-BoldSemiExt;
     font-weight: 800;
     font-size: 5vw;
@@ -30,7 +30,7 @@ section {
     background-position: center top;
     background-size: 100vw;
     z-index:2!important;
-    margin-top: 40vh;
+    margin-top: 40vw;
 }
 #choose {
     position: relative;

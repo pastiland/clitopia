@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import Header from "../Header";
 import Title from "../Title";
 import About from "../About";
 import Choose from "../Choose";

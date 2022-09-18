@@ -1,9 +1,9 @@
-import React from "react"
-import social_twitter from "../../assets/img/social-twitter.png"
-import social_discord from "../../assets/img/social-discord.png"
-import social_instagram from "../../assets/img/social-instagram.png"
-import Logo_bottom from "../../assets/img/bottom-logo.png"
-import "./Footer.css"
+import React from "react";
+import social_twitter from "../../assets/img/social-twitter.png";
+import social_discord from "../../assets/img/social-discord.png";
+import social_instagram from "../../assets/img/social-instagram.png";
+import Logo_bottom from "../../assets/img/bottom-logo.png";
+import "./Footer.css";
 
 const Footer = () => {
     return <> 
@@ -21,4 +21,4 @@ const Footer = () => {
         </div>
     </>
 }
-export default Footer
+export default Footer;

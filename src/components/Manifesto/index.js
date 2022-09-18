@@ -1,6 +1,6 @@
-import React from "react"
-import Eye from "../../assets/img/eye.png"
-import "./Manifesto.css"
+import React from "react";
+import Eye from "../../assets/img/eye.png";
+import "./Manifesto.css";
 
 const Manifesto = ({ menifesto }) => {
     return <>
@@ -18,4 +18,4 @@ const Manifesto = ({ menifesto }) => {
         </div>
     </>
 }
-export default Manifesto
+export default Manifesto;

@@ -1,10 +1,9 @@
-import React from "react"
-
-import { Swiper, SwiperSlide } from "swiper/react"
-import "swiper/css"
-import "swiper/css/effect-coverflow"
-import "swiper/css/pagination"
-import "./Slider.css"
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+import "./Slider.css";
 
 import Slide1 from "../../assets/img/slider/slider_1.webp"
 import Slide2 from "../../assets/img/slider/Slider_2.webp"

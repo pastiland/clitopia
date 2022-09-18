@@ -1,27 +1,24 @@
-import React, { useRef } from "react"
-import useMediaQuery from '@mui/material/useMediaQuery'
-
-import Header from "../Header"
-import Title from "../Title"
-import About from "../About"
-import Choose from "../Choose"
-import Video from "../Video"
-import DontBE from "../DontBe"
-import Legendary from "../Legendary"
-import Manifesto from "../Manifesto"
-import Team from "../Team"
-import Footer from "../Footer"
-import Circle from "../../assets/img/circle-pink.png"
-import Bg_Blue_1 from "../../assets/img/bg-blue-1.png"
-import Intro from "../../assets/img/intro-pussy.png"
-import "./Home.css"
+import React, { useRef } from "react";
+import Header from "../Header";
+import Title from "../Title";
+import About from "../About";
+import Choose from "../Choose";
+import Video from "../Video";
+import DontBE from "../DontBe";
+import Legendary from "../Legendary";
+import Manifesto from "../Manifesto";
+import Team from "../Team";
+import Footer from "../Footer";
+import Circle from "../../assets/img/circle-pink.png";
+import Bg_Blue_1 from "../../assets/img/bg-blue-1.png";
+import Intro from "../../assets/img/intro-pussy.png";
+import "./Home.css";
 
 const Home = () => {
-    const matchesMobile = useMediaQuery('(max-width:600px)');
     const about = useRef(null);
     const team = useRef(null);
     const manifesto = useRef(null);
-    const legendry = useRef(null);
+    const legend = useRef(null);
 
     const handleClick = (name) => {
         if (name === "about") {
@@ -31,7 +28,7 @@ const Home = () => {
         } else if (name === "manifesto") {
             manifesto.current?.scrollIntoView({ behavior: 'smooth' });
         } else if (name === "legendary") {
-            legendry.current?.scrollIntoView({ behavior: 'smooth' });
+            legend.current?.scrollIntoView({ behavior: 'smooth' });
         }
     };
 
@@ -68,7 +65,7 @@ const Home = () => {
 
         <div className="sep-legendary"></div>
         <section id="legendary">
-            <Legendary legendry={legendry}/>
+            <Legendary legend={legend}/>
             <div className="circle_div_main">
                 <div className="circle_div" >
                     <img src={Circle} alt="circle" className="circle" />
@@ -92,4 +89,4 @@ const Home = () => {
     </>
 }
 
-export default Home
+export default Home;

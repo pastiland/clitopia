@@ -1,14 +1,11 @@
-import React from "react"
-import Team1 from "../../assets/img/team-member.png"
-import "./Team.css"
+import React from "react";
+import Team1 from "../../assets/img/team-member.png";
+import "./Team.css";
 
 const Team = ({team}) => {
     return <>
-    
         <div container className="team-container" >
-            
             <h2 className="section-title">MEET THE TEAM</h2>
-
             <div className="team-member">
                     <img src={Team1} alt="team1" />
                     <p className="team-member-name">@loremipsum</p>
@@ -28,4 +25,4 @@ const Team = ({team}) => {
     </>
 }
 
-export default Team
+export default Team;

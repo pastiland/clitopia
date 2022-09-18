@@ -55,18 +55,18 @@ ol li:before {
     font-weight: 700;
     display: inline-block;
 }
-.manifesto-eye {
+.about-eye {
     display: block;
     position: absolute;
     bottom:0;
     right:20vw;
 }
-.manifesto-eye img {
-    width: 60px;
+.about-eye img {
+    width: 64px;
 }
 
 @media only screen and (max-width: 600px) { 
-    .manifesto-eye img {
+    .about-eye img {
         width: 50px;
     }
     .manifesto-container {

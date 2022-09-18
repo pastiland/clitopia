@@ -6,7 +6,7 @@
     padding:10vh 0 0 0;
 }
 .title-container img {
-    width: 60vw;
+    width: 50vw;
     height: auto;
 }
 .subtitle-container {
@@ -18,5 +18,5 @@
 .subtitle {
     font-family: MyriadPro-BoldSemiExt !important;
     font-weight: 900;
-    font-size: 4vw;
+    font-size: 3.5vw;
 }

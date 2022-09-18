@@ -10,4 +10,4 @@ const DontBE=()=>{
             <button>BUTTON</button>
         </div></>
 }
-export default DontBE
+export default DontBE;

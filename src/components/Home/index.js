@@ -34,7 +34,7 @@ const Home = () => {
 
     return <>
         <section id="header">
-            <Header handleClick={handleClick} />
+            {/* <Header handleClick={handleClick} /> */}
         </section>
 
         <section id="title">

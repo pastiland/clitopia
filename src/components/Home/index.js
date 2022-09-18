@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import Header from "../Header";
 import Title from "../Title";
 import About from "../About";
 import Choose from "../Choose";
@@ -33,6 +34,7 @@ const Home = () => {
 
     return <>
         <section id="header">
+            {<Header handleClick={handleClick} />
         </section>
 
         <section id="title">

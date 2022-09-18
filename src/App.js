@@ -1,5 +1,4 @@
 import './App.css';
-import "./setHeight.js";
 import Home from "./components/Home";
 
 function App() {

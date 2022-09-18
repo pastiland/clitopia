@@ -22,12 +22,12 @@ const Video = () => {
     }
     return <>
         <button className="mute-button" onClick={mute}>{isMuted ? <img src={muted} alt={"muted"}/> : <img src={unmuted} alt="unmuted"/>}</button>
-        <div className="video-container">
+        <div className="video-container section-container">
             {matchesMobile ?
-                <video width={'100%'} autoPlay playsInline muted loop>
+                <video autoPlay playsInline muted loop>
                     <source src={promoMobile} type="video/mp4" />
                 </video> 
-                : <video width={'100%'} autoPlay muted loop>
+                : <video autoPlay muted loop>
                     <source src={promoDesktop} type="video/mp4" />
                 </video>}
         </div>

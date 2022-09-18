@@ -8,11 +8,9 @@
 .choose-section {
     position: relative;
     margin-top: 5vw;
-    padding: 15vw 0 10vw 0;
+    padding: 10vw 0 5vw 0;
     z-index:2!important;
     background-color: #00fff8;
-
-
 }
 .choose-section > button {
     background-color: black;
@@ -30,4 +28,12 @@
     margin: auto;
     /* width: 80%; */
     font-family: sans-serif;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .choose-section {
+        padding: 15vw 0 10vw 0;
+    }
 }

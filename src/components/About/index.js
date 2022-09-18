@@ -10,7 +10,7 @@ const About = () => {
             <div className="about_main">
                 <div className="about-eye"><img src={Eye} alt="eye" /></div>
                 <h2 className="section-title">ABOUT CLITOPIA</h2>
-                <div className="section-content">
+                <div className="section-desc">
                     <p>The story goes that when mother Serotonix was a baby she fell down into a pot containing magic potion, causing her to be in a permenant state of super strength...
                     Onc sec, I may be getting mixed up with another tale. Aaa, What a heck!...</p>
 

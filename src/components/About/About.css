@@ -10,37 +10,26 @@
 }
 .about-container {
     position: relative;
-    padding: 20vw;
+    padding: 20vw 10vw;
     background-color: #ff5bf8;
     background-image: url("../../assets/img/circle-pink.png");
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: auto 90%;
 }
-.section-content {
-    /* font-weight: 600; */
-    letter-spacing: 0.1vw;
-    line-height: 4vw;
+.section-desc {
     color: white;
-    text-align: justify;
     font-family: Myriad-Bold !important;
-    /* font-weight: 4vw; */
 }
 
-
-
-.about_eye_desktop {
-    z-index: 60;
-    position: relative;
-}
-.about_eye_desktop > img {
+.about-eye {
+    display: block;
     position: absolute;
-    right: 8em;
-    top: -8.6em;
-    width: 80px;
+    bottom:0;
+    right:20vw;
 }
-.manifesto-eye img {
-    width: 60px;
+.about-eye img {
+    width: 8vw;
 }
 
 
@@ -50,7 +39,7 @@
     .about-container {
         padding: 15vw 2vw 15vw 8vw;
     }
-    .manifesto-eye img {
-        width: 50px;
+    .about-eye img {
+        width: 12vw;
     }
 }

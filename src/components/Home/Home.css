@@ -9,8 +9,31 @@ section {
     margin: 5vw auto;
     font-family: MyriadPro-BoldSemiExt;
     font-weight: 800;
-    font-size: 5vw;
+    font-size: 3em;
+    padding: 5vw;
     text-align: center;
+}
+.section-desc {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.cta-headline {
+    font-size: 3.6vw;
+    font-weight: 800;
+    margin: auto;
+    font-family: sans-serif;
+}
+.cta-container > button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 12px 40px;
+    margin-top: 8vw;
+    cursor: pointer;
 }
 
 #intro {
@@ -22,7 +45,6 @@ section {
     position: relative;
     z-index: 999!important;
 }
-
 #about {
     position: relative;
     background-image: url("../../assets/img/bg-pink-1.png");

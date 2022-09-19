@@ -90,7 +90,19 @@ section {
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
+
+    #team {
+        padding-top:5vw;
+    }
+}
+@media only screen and (max-width: 768px) {
+
+    #team {
+        padding-top:7.5vw;
+    }
+}
+@media only screen and (max-width: 320px) {
 
     #team {
         padding-top:10vw;

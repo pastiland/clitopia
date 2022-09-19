@@ -123,8 +123,15 @@
     width: 8vw;
     height: 8vw;
 }
-
-
+.footer-social ul li:nth-child(1) a {
+    border: 3px solid #75fbf7;
+}
+.footer-social ul li:nth-child(2) a {
+    border: 3px solid #8a1af5;
+}
+.footer-social ul li:nth-child(3) a {
+    border: 3px solid #e933cb;
+}
 
 @media only screen and (max-width: 600px) {
     .footer-social img {

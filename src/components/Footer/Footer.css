@@ -8,30 +8,21 @@
 .footer-container {
     background: #fff;
     display: flex;
-    flex-direction: column !important;
-    padding: 10vw;
+    flex-direction: column!important;
+    padding: 20vw 10vw 10vw 10vw;
     align-items: center!important;
 }
-.footer-social {
-    margin: 0vw;
-    align-items: center;
-    display: flex;
-    justify-content: space-evenly;
-}
-.footer-social img {
-    margin: 1vw;
-    width: 8vw;
-}
 .footer-text {
-    width: 27vw;
+    display: inline-block;
+    position: relative;
+    align-items: center;
     font-family: MyriadPro-SemiCn !important;
     text-align: center;
     text-justify: inter-word;
     margin-left: auto;
     margin-right: auto;
-    margin: 5vw 0 12vw 0;
-    font-size: 3vh;
-
+    margin: 6vw 0 12vw 0;
+    font-size: 2vh;
 }
 .footer-logo {
     display: flex;
@@ -43,6 +34,96 @@
     width: 15vw;
     max-width: 125px;
 }
+
+/* Social Icons */
+.footer-social {
+    display: flex;
+    position: relative;
+    padding: 0;
+}
+.footer-social img {
+    margin: 1vw;
+    width: 8vw;
+}
+.footer-social ul {
+    display: flex;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.footer-social ul li {
+    list-style: none;
+}  
+.footer-social ul li a {
+    position: relative;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw;
+    width: 8vw;
+    height: 8vw;
+    color: #eee;
+    background-color: #000;
+    line-height: 0;
+    font-size: 6vw;
+    margin: 0 10px;
+    border-radius: 1vw;
+    overflow: hidden;
+    border: 3px solid #111;
+    z-index: 1;
+}
+.footer-social ul li a:hover {
+    width: 8vw;
+    height: 8vw;
+    color: transparent;
+}
+.footer-social ul li a .icon {
+    position: relative;
+    color: #fff;
+    transition: .5s;
+    z-index: 3;
+}
+  
+.footer-social ul li a:hover .icon {
+    color: #fff;
+    transform: rotateY(360deg);
+}
+.footer-social ul li a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    z-index: 2;
+}
+.footer-social ul li a:hover:before {
+    top: 0;
+    z-index:-100;
+}
+.footer-social ul li:nth-child(1) a:before{
+    background: #75fbf7; /* #55acee */
+}
+.footer-social ul li:nth-child(2) a:before{
+    background: #8a1af5; /* #5a64ea */
+}
+.footer-social ul li:nth-child(3) a:before {
+    background: #e933cb; /* #743ca5 */
+}
+.footer-social ul li:nth-child(3) .svg-inline--fa {
+    width: 8vw;
+    height: 8vw;
+}
+
 
 
 @media only screen and (max-width: 600px) {

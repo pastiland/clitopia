@@ -3,7 +3,17 @@ section {
     width: 100vw;
     height:auto;
     overflow-x: hidden;
-    z-index: 0!important;
+    z-index: 0;
+    padding: 0;
+    margin: 0;
+}
+.section-container {
+    position:relative;
+    display: block;
+    width: 100vw;
+}
+.section-content {
+    padding: 15vw 5vw 15vw 5vw;
 }
 .section-title {
     margin: 5vw auto;
@@ -14,15 +24,17 @@ section {
     text-align: center;
 }
 .section-desc {
+    font-family: Myriad-Bold !important;
     font-size: 1.5em;
     line-height: 1.5em;
     text-align: justify;
     text-justify: inter-word;
 }
-.cta-headline {
-    font-size: 3.6vw;
+p.cta-headline {
+    font-size: 0.6em;
     font-weight: 800;
     margin: auto;
+    padding: 0 5vw;
     font-family: sans-serif;
 }
 .cta-container > button {
@@ -44,6 +56,7 @@ section {
 .intro {
     position: relative;
     z-index: 999!important;
+    margin-top: -10vw!important;
 }
 #about {
     position: relative;
@@ -92,18 +105,40 @@ section {
 
 @media only screen and (max-width: 1200px) {
 
+    .section-title {
+        margin: 5vw auto;
+        font-size: 1.8em;
+        padding: 5vw;
+        text-align: center;
+    }
+    .section-desc {
+        font-size: 1.3em;
+    }
     #team {
         padding-top:5vw;
     }
 }
 @media only screen and (max-width: 768px) {
 
+    .section-title {
+        font-size: 1.4em;
+    }
+    .section-desc {
+        font-size: 0.9m;
+        font-size: 0.7em;
+    }
     #team {
         padding-top:7.5vw;
     }
 }
 @media only screen and (max-width: 320px) {
 
+    .section-title {
+        font-size: 1.2em;
+    }
+    .section-desc {
+        font-size: 0.5em;
+    }
     #team {
         padding-top:10vw;
     }

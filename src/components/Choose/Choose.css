@@ -22,7 +22,7 @@
     margin-top: 8vw;
 
 }
-.cta-heading {
+.cta-headline {
     font-size: 3.6vw;
     font-weight: 800;
     margin: auto;
@@ -31,8 +31,13 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
 
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 320px) {
     .choose-section {
         padding: 15vw 0 10vw 0;
     }

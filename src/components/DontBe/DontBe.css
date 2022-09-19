@@ -41,20 +41,19 @@ button:hover .cross::after {
 }
 
 .btn--action{
-    display: inline-block;
+    display: block;
     position: relative;
-    padding: 1rem;
     font-weight: bold;
     letter-spacing: 2px;
     font-size: 2em;
-    padding: 12px 40px;
-    margin-top: 8vw;
+    padding: 0.5em 1em;
+    margin: 8vw 12vw;
     border-radius: 0.5rem;
     background-color: #000;
     color: #ccc;
     box-shadow: 0 10px #666;
     text-decoration: none;
-    transition: all .5s ease 0s; 
+    transition: all .5s ease 0s;
 }
 .btn--action span {
     color:#ccc;
@@ -90,4 +89,22 @@ button:hover .cross::after {
 }
 .btn--action:hover .strike::before {
     visibility: visible;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 320px) {
+    .btn--action{
+        display: block;
+        position: relative;
+        letter-spacing: 2px;
+        font-size: 0.5em;
+        padding: 0.5em 1em;
+        margin: 8vw 12vw;
+    }
 }

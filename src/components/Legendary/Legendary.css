@@ -5,9 +5,6 @@
     z-index:2!important;
     background-color: #fff;
 }
-.section-container p {
-    color: #000;
-}
 .legendary-container {
     position: relative;
     margin-top: 5vw;
@@ -19,6 +16,10 @@
     padding: 0 15vw;
     font-size: 1em;
     line-height: 1.5em;
+    color: #000;
+}
+.legendary-content p{
+    color: #000;
 }
 .legendary-eye {
     display: block;

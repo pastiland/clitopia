@@ -10,16 +10,18 @@
 }
 .about-container {
     position: relative;
-    padding: 20vw 10vw;
+    width: 100vw;
     background-color: #ff5bf8;
     background-image: url("../../assets/img/circle-pink.png");
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: auto 90%;
 }
+.about-content {
+    padding: 15vw 5vw 15vw 5vw;
+}
 .section-desc {
     color: white;
-    font-family: Myriad-Bold !important;
 }
 
 .about-eye {
@@ -34,12 +36,18 @@
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
 
-    .about-container {
-        padding: 15vw 2vw 15vw 8vw;
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 320px) {
+    .about-content {
+        padding: 15vw 10vw 15vw 10vw;
     }
     .about-eye img {
         width: 12vw;
     }
 }
+

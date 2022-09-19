@@ -77,7 +77,7 @@
     margin: 0 10px;
     border-radius: 1vw;
     overflow: hidden;
-    border: 3px solid #111;
+    border: 3px solid #000;
     z-index: 1;
 }
 .footer-social ul li a:hover {
@@ -94,6 +94,7 @@
   
 .footer-social ul li a:hover .icon {
     color: #fff;
+    color: #000;
     transform: rotateY(360deg);
 }
 .footer-social ul li a:before {
@@ -122,15 +123,6 @@
 .footer-social ul li:nth-child(3) .svg-inline--fa {
     width: 8vw;
     height: 8vw;
-}
-.footer-social ul li:nth-child(1) a {
-    border: 3px solid #75fbf7;
-}
-.footer-social ul li:nth-child(2) a {
-    border: 3px solid #8a1af5;
-}
-.footer-social ul li:nth-child(3) a {
-    border: 3px solid #e933cb;
 }
 
 @media only screen and (max-width: 600px) {

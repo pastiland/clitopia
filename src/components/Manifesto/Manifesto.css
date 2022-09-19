@@ -15,13 +15,13 @@
     background-position: left center;
     background-repeat: no-repeat;
     background-size:50vw;
-    z-index:19999!important;
+    z-index:999!important;
 }
 ol {
     counter-reset: item;
     list-style-type: none;
-    line-height: 2.2;
-    margin-left: -50px;
+    line-height: 2.2em;
+    margin-left: -15vw;
     padding: 0 10vw;
     text-align: left;
 }
@@ -36,7 +36,7 @@ ol li {
     
 }
 ol li span {
-    margin-left: 50px;
+    margin-left: 15vw;
     color: #fff;
     font-family: Myriad-Bold;
 } 
@@ -62,12 +62,12 @@ ol li:before {
     right:20vw;
 }
 .manifesto-eye img {
-    width: 80px;
+    width: 30vw;
 }
 
 @media only screen and (max-width: 600px) { 
     .manifesto-eye img {
-        width: 50px;
+        width: 20vw;
     }
     .manifesto-container {
         padding: 15vw 2vw 15vw 8vw;

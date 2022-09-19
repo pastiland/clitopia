@@ -21,20 +21,14 @@
 .legendary-content p{
     color: #000;
 }
-.legendary-eye {
+#legendary-eye {
     display: block;
     position: absolute;
     top:0;
     left:20vw;
 }
-.legendary-eye img {
-    width: 80px;
-}
 
 @media only screen and (max-width: 600px) { 
-    .legendary-eye img {
-        width: 40px;
-    }
     .legendary-content {
         padding: 0 10vw;
     }

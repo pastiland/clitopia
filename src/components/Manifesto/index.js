@@ -1,6 +1,6 @@
 import React from "react";
-import Eye from "../../assets/img/eye.png";
 import "./Manifesto.css";
+import Eye from "../Eye";
 
 const Manifesto = ({ menifesto }) => {
     return <>
@@ -18,7 +18,7 @@ const Manifesto = ({ menifesto }) => {
                     </ol>
                 </div>
             </div>
-            <div className="manifesto-eye"><img src={Eye} alt="O_O" /></div>
+            <Eye id="manifesto-eye" />
         </div>
     </>
 }

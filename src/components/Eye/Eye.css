@@ -1,0 +1,24 @@
+.eye {
+    display: block;
+    position: absolute;
+}
+.eye img {
+    width: 10vw;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .eye img {
+        width: 6vw;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .eye img {
+        width: 12vw;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .eye img {
+        width: 18vw;
+    }
+}

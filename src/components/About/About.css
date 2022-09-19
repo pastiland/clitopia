@@ -24,13 +24,13 @@
     color: white;
 }
 
-.about-eye {
+#about-eye {
     display: block;
     position: absolute;
-    bottom:0;
+    bottom:1vw;
     right:20vw;
 }
-.about-eye img {
+#about-eye img {
     width: 8vw;
 }
 

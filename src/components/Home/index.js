@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import Header from "../Header";
 import Title from "../Title";
+import Intro from "../Intro";
 import About from "../About";
 import Choose from "../Choose";
 import Video from "../Video";
@@ -11,7 +12,6 @@ import Team from "../Team";
 import Footer from "../Footer";
 import Circle from "../../assets/img/circle-pink.png";
 import Bg_Blue_1 from "../../assets/img/bg-blue-1.png";
-import Intro from "../../assets/img/intro-pussy.png";
 import "./Home.css";
 
 const Home = () => {
@@ -33,6 +33,9 @@ const Home = () => {
     };
 
     return <>
+            
+        <div id="Bg_RandomNfts" />
+
         <section id="header">
             <Header handleClick={handleClick} />
         </section>
@@ -42,9 +45,9 @@ const Home = () => {
             <img src={Bg_Blue_1} alt="Bg_Blue_1" className="Bg_Blue_1" />
         </section>
         
-        <img src={Intro} alt="Intro" className="intro" />
-        
-        <div className="Bg_mutlpleNfts" ></div>
+        <section id="intro">
+            <Intro />
+        </section>
 
         <section id="about" ref={about}>
             <About />

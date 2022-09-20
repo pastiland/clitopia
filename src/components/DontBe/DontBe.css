@@ -6,46 +6,12 @@
     position: relative;
 
 }
-.cta-container > button {
-    background-color: black;
-    color: white;
-    font-weight: bold;
-    letter-spacing: 2px;
-    font-size: 20px;
-    padding: 12px 40px;
-    margin-top: 8vw;
-}
-.cta-container > button:hover {
-    color: #ea3423!important;
-}
-button:hover .cross {
-    position: relative;
-    display: inline-block;
-}
-button:hover .cross::before, .cross::after {
-    content: '';
-    width: 105%;
-    position: absolute;
-    right: 0;
-    top: 40%;
-}
-button:hover .cross::before {
-    border-bottom: 5px solid #ea3423;
-    -webkit-transform: skewY(-10deg);
-    transform: skewY(-10deg);
-}
-button:hover .cross::after {
-    border-bottom: 5px solid #ea3423;
-    -webkit-transform: skewY(10deg);
-    transform: skewY(10deg);
-}
-
-.btn--action{
+.btn--action {
     display: block;
     position: relative;
     font-weight: bold;
     letter-spacing: 2px;
-    font-size: 2em;
+    font-size: 0.5em;
     padding: 0.5em 1em;
     margin: 8vw 12vw;
     border-radius: 0.5rem;
@@ -54,6 +20,10 @@ button:hover .cross::after {
     box-shadow: 0 10px #666;
     text-decoration: none;
     transition: all .5s ease 0s;
+}
+.btn--action:hover {
+    color: #111!important;
+    background-color: #75fbf8!important;
 }
 .btn--action span {
     color:#ccc;
@@ -73,7 +43,7 @@ button:hover .cross::after {
     box-shadow: 0 5px #75fbf8;
     transform: translateY(5px);
 }
-
+/* TEXT RED STRIKE */
 .btn--action .strike {
     position: relative;
     display: inline-block;
@@ -90,21 +60,46 @@ button:hover .cross::after {
 .btn--action:hover .strike::before {
     visibility: visible;
 }
+/* TEXT RED CROSS */
+.btn--action:hover .cross {
+    position: relative;
+    display: inline-block;
+}
+.btn--action:hover .cross::before, .cross::after {
+    content: '';
+    width: 105%;
+    position: absolute;
+    right: 0;
+    top: 40%;
+}
+.btn--action:hover .cross::before {
+    border-bottom: 5px solid #ea3423;
+    -webkit-transform: skewY(-10deg);
+    transform: skewY(-10deg);
+}
+.btn--action:hover .cross::after {
+    border-bottom: 5px solid #ea3423;
+    -webkit-transform: skewY(10deg);
+    transform: skewY(10deg);
+}
 
-
-@media only screen and (max-width: 1200px) {
+/* *************************************** */
+/* RESPONSIVE MEDIA QUERIES - MOBILE FIRST */
+/* *************************************** */
+@media only screen and (min-width: 576px) {
 
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
 
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 992px) {
+
+}
+@media only screen and (min-width: 1200px) {
     .btn--action{
-        display: block;
-        position: relative;
-        letter-spacing: 2px;
-        font-size: 0.5em;
+        font-size: 2em;
         padding: 0.5em 1em;
         margin: 8vw 12vw;
     }
 }
+

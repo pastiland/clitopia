@@ -15,16 +15,27 @@ button.navItems {
     color: black;
     font-weight: 800;
     font-family: 'acumin-pro-condensed', sans-serif;
-    padding-left: 2vw;
-    padding-right: 60px !important;
     font-size: 1em;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-@media only screen and (max-width: 1300px) {
+
+/* ************************ */
+/* RESPONSIVE MEDIA QUERIES */
+/* ************************ */
+@media only screen and (min-width: 576px) {
+
+}
+@media only screen and (min-width: 768px) {
+
+}
+@media only screen and (min-width: 992px) {
+
+}
+@media only screen and (min-width: 1200px) {
     button.navItems {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
-
-
 }

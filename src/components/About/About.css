@@ -1,3 +1,13 @@
+#about {
+    position: relative;
+    display: block;
+    background-image: url("../../assets/img/bg-pink-1.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100vw;
+    z-index:2!important;
+    margin-top: 40vw!important;
+}
 .about-sep {
     position: relative;
     display: block;
@@ -23,7 +33,6 @@
 .section-desc {
     color: white;
 }
-
 #about-eye {
     display: block;
     position: absolute;
@@ -31,23 +40,34 @@
     right:20vw;
 }
 #about-eye img {
-    width: 8vw;
+    width: 12vw;
 }
 
 
-
-@media only screen and (max-width: 1200px) {
-
-}
-@media only screen and (max-width: 768px) {
-
-}
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 576px) {
     .about-content {
         padding: 15vw 10vw 15vw 10vw;
     }
-    .about-eye img {
-        width: 12vw;
+    #about-eye img {
+        width: 11vw;
+    }
+}
+@media only screen and (min-width: 768px) {
+
+    #about-eye img {
+        width: 10vw;
+    }
+}
+@media only screen and (min-width: 992px) {
+
+    #about-eye img {
+        width: 9vw;
+    }
+}
+@media only screen and (min-width: 1200px) {
+
+    #about-eye img {
+        width: 8vw;
     }
 }
 

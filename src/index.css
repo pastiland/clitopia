@@ -15,15 +15,6 @@ html {
     width: 100vw;
     bottom:0!important;
 }
-.Bg_mutlpleNfts {
-    width: 100vw;
-    background-image: url("./assets/img/intro-random.png");
-    background-size:100vw;
-    position:fixed;
-    top:0;
-    bottom:0;
-    z-index:-1;
-}
 .Bg_Pink {
     max-width: 100%;
     display: block;

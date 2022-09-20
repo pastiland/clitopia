@@ -1,3 +1,11 @@
+#legendary {
+    position: relative;
+    background-image: url("../../assets/img/bg-blue-2.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100vw;
+    z-index:2!important;
+}
 .sep-legendary {
     position:absolute;
     width: 100vw;
@@ -26,6 +34,24 @@
     position: absolute;
     top:0;
     left:20vw;
+}
+
+
+
+/* ************************ */
+/* RESPONSIVE MEDIA QUERIES */
+/* ************************ */
+@media only screen and (min-width: 576px) {
+
+}
+@media only screen and (min-width: 768px) {
+
+}
+@media only screen and (min-width: 992px) {
+
+}
+@media only screen and (min-width: 1200px) {
+
 }
 
 @media only screen and (max-width: 600px) { 

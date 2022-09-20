@@ -1,31 +1,37 @@
 section {
-    display: block;
+    display: contents;
     width: 100vw;
-    height:auto;
+    height: auto;
     overflow-x: hidden;
     z-index: 0;
     padding: 0;
     margin: 0;
+}
+#Bg_RandomNfts {
+    position: fixed;
+    width: 100vw;
+    background-image: url("../../assets/img/intro-random.png");
+    background-size:100vw;
+    top:0;
+    bottom:0;
+    z-index:-1;
 }
 .section-container {
     position:relative;
     display: block;
     width: 100vw;
 }
-.section-content {
-    padding: 15vw 5vw 15vw 5vw;
-}
 .section-title {
     margin: 5vw auto;
     font-family: MyriadPro-BoldSemiExt;
     font-weight: 800;
-    font-size: 3em;
     padding: 5vw;
+    font-size: 1.2em;
     text-align: center;
 }
 .section-desc {
     font-family: Myriad-Bold !important;
-    font-size: 1.5em;
+    font-size: 0.5em;
     line-height: 1.5em;
     text-align: justify;
     text-justify: inter-word;
@@ -48,63 +54,43 @@ p.cta-headline {
     cursor: pointer;
 }
 
-#intro {
-    position: relative;
-    margin:0;
-    z-index: 999!important;
-}
-.intro {
-    position: relative;
-    z-index: 999!important;
-    margin-top: -10vw!important;
-}
-#about {
-    position: relative;
-    background-image: url("../../assets/img/bg-pink-1.png");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 100vw;
-    z-index:2!important;
-    margin-top: 40vw;
-}
-#choose {
-    position: relative;
-    background-image: url("../../assets/img/bg-blue-2.png");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 100vw;
-    z-index:2!important;
-}
-#legendary {
-    position: relative;
-    background-image: url("../../assets/img/bg-blue-2.png");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 100vw;
-    z-index:2!important;
-}
-#manifesto {
-    position: relative;
-    background-image: url("../../assets/img/bg-pink-2.png");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 100vw;
-    z-index:2!important;
-}
-#team {
-    position: relative;
-    background-image: url("../../assets/img/bg-team.png");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
-    z-index:2!important;
-}
-#footer {
 
+/* Responsive */
+@media only screen and (min-width: 576px) {
+    .eye img {
+        width: 11vw;
+    }
 }
-
-@media only screen and (max-width: 1200px) {
-
+@media only screen and (min-width: 768px) {
+    .section-title {
+        font-size: 1.4em;
+    }
+    .section-desc {
+        font-size: 0.9m;
+        font-size: 0.7em;
+    }
+    .eye img {
+            width: 10vw;
+    }
+    #team {
+        padding-top:7.5vw;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .section-content {
+        padding: 15vw 5vw 15vw 5vw;
+    }
+    .section-title {
+        font-size: 3em;
+    }
+    .section-desc {
+        font-size: 1.5em;
+    }
+    .eye img {
+        width: 9vw;
+    }
+}
+@media only screen and (min-width: 1200px) {
     .section-title {
         margin: 5vw auto;
         font-size: 1.8em;
@@ -114,32 +100,10 @@ p.cta-headline {
     .section-desc {
         font-size: 1.3em;
     }
+    .eye img {
+        width: 8vw;
+    }
     #team {
         padding-top:5vw;
-    }
-}
-@media only screen and (max-width: 768px) {
-
-    .section-title {
-        font-size: 1.4em;
-    }
-    .section-desc {
-        font-size: 0.9m;
-        font-size: 0.7em;
-    }
-    #team {
-        padding-top:7.5vw;
-    }
-}
-@media only screen and (max-width: 320px) {
-
-    .section-title {
-        font-size: 1.2em;
-    }
-    .section-desc {
-        font-size: 0.5em;
-    }
-    #team {
-        padding-top:10vw;
     }
 }

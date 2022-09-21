@@ -16,13 +16,13 @@
 }
 .manifesto-container {
     position: relative;
-    display: block;
-    margin-top: 16vw;
-    padding: 15vw 2vw 15vw 8vw;
+    display: inline-block;
+    margin-top: 15vw;
+    padding: 12vw 2vw 15vw 8vw;
     z-index:2!important;
     background-color: #ff5bf8;
     background-image: url("../../assets/img/circle-yellow.png");
-    background-position: left center;
+    background-position: left bottom;
     background-repeat: no-repeat;
     background-size:50vw;
     z-index:999!important;

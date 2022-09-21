@@ -20,16 +20,6 @@ html {
     display: block;
 }
 
-
-.intro {
-    position: relative;
-    margin-top: -50vw;
-    z-index: 59;
-    width: 30vw;
-    min-width: 30%;
-    align-items: center;
-    margin-bottom: -50vw;
-}
 .circle {
     position: relative;
     margin-top: -18%;

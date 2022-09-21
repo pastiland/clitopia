@@ -4,19 +4,20 @@
     z-index: 999!important;
 }
 .intro {
-    position: fixed;
-    display: flex;
+    position: relative;
     top: 0;
     left:0;
+    width: 40vw;
     margin: 0 auto;
+    margin-top: -25vw;
+    margin-bottom: -60vw;
     z-index: 999!important;
-    margin-top: -10vw!important;
 }
 
 /* ************************ */
 /* RESPONSIVE MEDIA QUERIES */
 /* ************************ */
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 400px) {
 
 }
 @media only screen and (min-width: 768px) {

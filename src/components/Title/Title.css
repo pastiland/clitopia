@@ -9,7 +9,7 @@
     z-index: 60;
     width: 100vw;
     background-color: #00fff8;
-    padding:30vw 0 0 0;
+    padding:50vw 0 0 0;
 }
 .title-container img {
     width: 75vw;
@@ -17,8 +17,8 @@
 }
 .subtitle-container {
     position: relative;
-    display: block;
-    padding: 1vw 0 20vw 0;
+    display: flex;
+    padding: 0 0 40vw 0;
     background-color: #00fff8;
 }
 .subtitle {
@@ -37,15 +37,18 @@
 /* ************************ */
 /* RESPONSIVE MEDIA QUERIES */
 /* ************************ */
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 400px) {
     .title-container { 
-        padding:20vw 0 0 0;
+        padding:40vw 0 0 0;
     }
     .subtitle-container {
         padding: 4vw 0 15vw 0;
     }
     .title-container img {
         width: 70vw;
+    }
+    .subtitle-container {
+        padding: 0 0 30vw 0;
     }
 }
 @media only screen and (min-width: 768px) {

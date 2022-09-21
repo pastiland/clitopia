@@ -1,7 +1,19 @@
+#header {
+    position:relative!important;
+    display:inline-block;
+    top:0;
+    left:0;
+    z-index:999!important;
+}
 .appbar {
+    position: relative;
+    top:0;
+    left:0;
+    display: block;
     background-image: url("../../assets/img/topnav-bg.png") !important;
     max-width: 100%;
     color: #ff5bf8 !important;
+    z-index: 999!important;
 }
 .connect {
     background-image: url("../../assets/img/topnav-connect.png") !important;

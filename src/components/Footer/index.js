@@ -18,7 +18,7 @@ const Footer = () => {
                     <li><a href="https://instagram.com/clitopia" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faInstagram} className="icon" /></a></li>
                 </ul>
             </div>
-            <div className="footer-text">❤ Join the community for more info ❤</div>
+            <div className="footer-text">Join the community for more info!</div>
             <div className="footer-logo">
                 <a href="#top"><img src={Logo_bottom} alt="Back to Top" /></a>
             </div>

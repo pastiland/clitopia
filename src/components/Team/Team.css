@@ -17,19 +17,18 @@
 .team-container {
     position: relative;
     margin: 0;
-    padding: 15vw 3vw;
+    padding: 30vw 5vw 10vw;
     z-index:2!important;
 }
 .team-member {
     position: relative;
     display: inline-block;
-    width: 90vw;
-    padding:3vw 0 6vw 0;
+    padding:1vw 0 10vw 0;
 }
 .team-member img {
     padding: 2vw;
     width: 90vw;
-    max-width: 50vw;
+    max-width: 65vw;
 }
 p.team-member-name {
     position: relative;

@@ -1,11 +1,14 @@
 section {
     display: contents;
+    position: absolute;
     width: 100vw;
     height: auto;
     overflow-x: hidden;
     z-index: 0;
     padding: 0;
     margin: 0;
+    top:0;
+    left:0;
 }
 #Bg_RandomNfts {
     position: fixed;
@@ -26,13 +29,13 @@ section {
     font-family: MyriadPro-BoldSemiExt;
     font-weight: 800;
     padding: 5vw;
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: center;
 }
 .section-desc {
     font-family: Myriad-Bold !important;
-    font-size: 0.5em;
-    line-height: 1.5em;
+    font-size: 1em;
+    line-height: 2em;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -57,13 +60,12 @@ p.cta-headline {
 
 
 /* Responsive */
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 400px) {
     .section-title {
-        font-size: 2em;
+        font-size: 2.5em;
     }
     .section-desc {
-        font-size: 0.9m;
-        font-size: 0.7em;
+        font-size: 1.25m;
     }
     .eye img {
         width: 11vw;

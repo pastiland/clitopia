@@ -1,13 +1,15 @@
 #choose {
     position: relative;
-    background-image: url("../../assets/img/bg-blue-2.png");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 100vw;
+    display: block;
     z-index:2!important;
 }
 .sep-choose {
-    position:absolute;
+    background-image: url("../../assets/img/bg-blue-2.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    //background-size: 100vw;
+    position: relative;
+    display: block;
     width: 100vw;
     height: 10vw;
     z-index:2!important;
@@ -19,6 +21,7 @@
     padding: 15vw 0 10vw 0;
     z-index:2!important;
     background-color: #00fff8;
+    margin-top:-5vw;
 }
 .choose-section > button {
     background-color: black;
@@ -29,13 +32,6 @@
     padding: 12px 40px;
     margin-top: 8vw;
 
-}
-.cta-headline {
-    font-size: 3.6vw;
-    font-weight: 800;
-    margin: auto;
-    /* width: 80%; */
-    font-family: sans-serif;
 }
 
 /* ************************ */

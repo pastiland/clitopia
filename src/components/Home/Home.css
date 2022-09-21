@@ -26,7 +26,7 @@ section {
     font-family: MyriadPro-BoldSemiExt;
     font-weight: 800;
     padding: 5vw;
-    font-size: 1.2em;
+    font-size: 1.5em;
     text-align: center;
 }
 .section-desc {
@@ -37,7 +37,8 @@ section {
     text-justify: inter-word;
 }
 p.cta-headline {
-    font-size: 0.6em;
+    font-size: 1em;
+    line-height: 1.5em;
     font-weight: 800;
     margin: auto;
     padding: 0 5vw;
@@ -57,13 +58,24 @@ p.cta-headline {
 
 /* Responsive */
 @media only screen and (min-width: 576px) {
+    .section-title {
+        font-size: 2em;
+    }
+    .section-desc {
+        font-size: 0.9m;
+        font-size: 0.7em;
+    }
     .eye img {
         width: 11vw;
+    }
+    p.cta-headline {
+        font-size: 1.5em;
+        line-height: 1.5em;
     }
 }
 @media only screen and (min-width: 768px) {
     .section-title {
-        font-size: 1.4em;
+        font-size: 2.5em;
     }
     .section-desc {
         font-size: 0.9m;
@@ -72,8 +84,9 @@ p.cta-headline {
     .eye img {
             width: 10vw;
     }
-    #team {
-        padding-top:7.5vw;
+    p.cta-headline {
+        font-size: 1.8em;
+        line-height: 1.5em;
     }
 }
 @media only screen and (min-width: 992px) {
@@ -81,7 +94,7 @@ p.cta-headline {
         padding: 15vw 5vw 15vw 5vw;
     }
     .section-title {
-        font-size: 3em;
+        font-size: 3.5em;
     }
     .section-desc {
         font-size: 1.5em;
@@ -89,11 +102,15 @@ p.cta-headline {
     .eye img {
         width: 9vw;
     }
+    p.cta-headline {
+        font-size: 2em;
+        line-height: 1.5em;
+    }
 }
 @media only screen and (min-width: 1200px) {
     .section-title {
         margin: 5vw auto;
-        font-size: 1.8em;
+        font-size: 4.5em;
         padding: 5vw;
         text-align: center;
     }
@@ -105,5 +122,9 @@ p.cta-headline {
     }
     #team {
         padding-top:5vw;
+    }
+    p.cta-headline {
+        font-size: 2.5em;
+        line-height: 1.5em;
     }
 }

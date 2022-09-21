@@ -1,5 +1,6 @@
 #manifesto {
     position: relative;
+    display: block;
     background-image: url("../../assets/img/bg-pink-2.png");
     background-repeat: no-repeat;
     background-position: center top;
@@ -7,16 +8,17 @@
     z-index:2!important;
 }
 .sep-manifesto {
-    position:absolute;
+    position: absolute;
     width: 100vw;
     height: 20vw;
-    z-index:2!important;
+    z-index: 2!important;
     background-color: #00fff8;
 }
 .manifesto-container {
     position: relative;
+    display: block;
     margin-top: 16vw;
-    padding: 25vw 15vw;
+    padding: 15vw 2vw 15vw 8vw;
     z-index:2!important;
     background-color: #ff5bf8;
     background-image: url("../../assets/img/circle-yellow.png");
@@ -29,22 +31,21 @@ ol {
     counter-reset: item;
     list-style-type: none;
     line-height: 2.2em;
-    margin-left: -15vw;
+    margin-left: -10vw;
     padding: 0 10vw;
     text-align: left;
 }
 ol li {
-    display: block;
     position: relative;
     display: flex;
     justify-content: space-between;
     vertical-align:text-top;
     vertical-align:top;
-    padding-bottom:1em;
+    padding-bottom: 3vw;
     
 }
 ol li span {
-    margin-left: 15vw;
+    margin-left: 10vw;
     color: #fff;
     font-family: Myriad-Bold;
 } 
@@ -70,7 +71,7 @@ ol li:before {
     right:20vw;
 }
 #manifesto-eye img {
-    width: 18vw;
+    width: 12vw;
 }
 
 
@@ -78,7 +79,12 @@ ol li:before {
 /* RESPONSIVE MEDIA QUERIES */
 /* ************************ */
 @media only screen and (min-width: 576px) {
-
+    .manifesto-container {
+        padding: 25vw 15vw;
+    }
+    #manifesto-eye img {
+        width: 10vw;
+    }
 }
 @media only screen and (min-width: 768px) {
 
@@ -88,14 +94,4 @@ ol li:before {
 }
 @media only screen and (min-width: 1200px) {
 
-}
-
-
-@media only screen and (max-width: 600px) { 
-    #manifesto-eye img {
-        width: 12vw;
-    }
-    .manifesto-container {
-        padding: 15vw 2vw 15vw 8vw;
-    }
 }

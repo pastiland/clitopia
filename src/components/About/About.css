@@ -1,6 +1,6 @@
 #about {
     position: relative;
-    display: inline-block;
+    display: block;
     background-image: url("../../assets/img/bg-pink-1.png");
     background-repeat: no-repeat;
     background-position: center top;
@@ -26,23 +26,24 @@
     background-position: left center;
     background-repeat: no-repeat;
     background-size: auto 90%;
-    padding-bottom: 10vw;
+    padding: 0;
 }
 .about-content {
     position: relative;
     display: block;
-    padding: 15vw 5vw 15vw 5vw;
-    line-height:2em;
+    padding: 20vw 15vw 30vw 15vw;
     margin:0!important;
 }
 .about-content p {
-    line-height:2em;
     color: white;
 }
 #about-eye {
+    float: none!important;
     position: absolute;
-    bottom:5vw;
-    right:20vw;
+    display:;
+    bottom:0vw;
+    right:15vw;
+    z-index: 999!important
 }
 #about-eye img {
     width: 10vw;

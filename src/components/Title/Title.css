@@ -9,16 +9,15 @@
     z-index: 60;
     width: 100vw;
     background-color: #00fff8;
-    padding:50vw 0 0 0;
+    padding:30vw 0 0 0;
 }
 .title-container img {
-    width: 75vw;
-    height: auto;
+    width: 80vw;
 }
 .subtitle-container {
     position: relative;
     display: flex;
-    padding: 0 0 40vw 0;
+    padding: 0 0 30vw 0;
     background-color: #00fff8;
 }
 .subtitle {

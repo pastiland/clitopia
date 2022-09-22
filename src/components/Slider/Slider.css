@@ -6,13 +6,15 @@
 .swiper {
   width: 100%;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 300px !important;
-  height: 300px !important;
+  width: 180px !important;
+  height: 180px !important;
+  width: 51vw !important;
+  height: 51vw !important;
   border: 5px solid white;
 }
 .swiper-slide img {
@@ -28,23 +30,27 @@
 /* RESPONSIVE MEDIA QUERIES */
 /* ************************ */
 @media only screen and (min-width: 576px) {
-
+  .swiper-slide {
+    width: 42vw !important;
+    height: 42vw !important;
+  }
 }
 @media only screen and (min-width: 768px) {
-
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 325px !important;
+    height: 325px !important;
+  }
 }
 @media only screen and (min-width: 992px) {
 
 }
 @media only screen and (min-width: 1200px) {
-
-}
-
-@media only screen and (max-width: 600px) {
   .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 170px !important;
-    height: 200px !important;
+    width: 350px !important;
+    height: 350px !important;
   }
 }

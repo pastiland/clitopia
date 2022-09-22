@@ -6,7 +6,7 @@ const Choose=()=>{
         <div className="choose-section" >
             <p className="cta-headline" style={{ marginBottom: 10 }}>YOU DON'T CHOOSE THE PUSSY,</p>
             <p className="cta-headline">THE PUSSY CHOOSES YOU !</p>
-            <button>BUTTON</button>
+            {/*<button>BUTTON</button>*/}
         </div>
     </>
 }

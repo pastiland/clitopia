@@ -9,8 +9,8 @@
     left:0;
     width: 50vw;
     margin: 0 auto;
-    margin-top: 90vw;
-    margin-bottom: -60vw;
+    margin-top: 100vw;
+    margin-bottom: -65vw;
     z-index: 999!important;
 }
 
@@ -19,21 +19,15 @@
 /* ************************ */
 @media only screen and (min-width: 400px) {
     .intro {
-        margin-top: 90vw;
+        margin-top: 80vw;
         margin-bottom: -60vw;
     }
 }
 @media only screen and (min-width: 768px) {
     .intro {
-        margin-top: 75vw;
-        margin-bottom: -60vw;
-    }
-}
-@media only screen and (min-width: 992px) {
-    .intro {
-        width: 25vw;
-        margin-top: 50vw;
-        margin-bottom: -50vw;
+        width: 35vw;
+        margin-top: 65vw;
+        margin-bottom: -55vw;
     }
 }
 @media only screen and (min-width: 1200px) {

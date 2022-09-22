@@ -9,7 +9,7 @@
     z-index: 60;
     width: 100vw;
     background-color: #00fff8;
-    padding:40vw 0 0 0;
+    padding:50vw 0 0 0;
 }
 .title-container img {
     width: 80vw;
@@ -17,7 +17,7 @@
 .subtitle-container {
     position: relative;
     display: flex;
-    padding: 0 0 30vw 0;
+    padding: 5vw 0 40vw 0;
     background-color: #00fff8;
 }
 .subtitle {
@@ -26,7 +26,7 @@
     font-family: MyriadPro-BoldSemiExt !important;
     font-weight: 900;
     font-size: 5vw;
-    margin: 10vw auto;
+    margin: 5vw auto 5vw;
     width: 80vw;
     justify-content: space-around;
     text-justify:distribute;
@@ -46,31 +46,24 @@
     .subtitle-container {
         padding: 0 0 30vw 0;
     }
+    .subtitle {
+        font-size: 4.5vw;
+        margin: 8vw auto;
+    }
 }
 @media only screen and (min-width: 768px) {
     .title-container { 
-        padding:30vw 0 0 0;
+        padding:25vw 0 0 0;
     }
     .title-container img {
         width: 65vw;
     }
     .subtitle-container {
-        padding: 0 0 10vw 0;
-    }
-}
-@media only screen and (min-width: 992px) {
-    .title-container { 
-        padding:20vw 0 0 0;
-    }
-    .title-container img {
-        width: 60vw;
-    }
-    .subtitle-container {
-        padding: 0 0 10vw 0;
+        padding: 0 0 8vw 0;
     }
     .subtitle {
         font-size: 4vw;
-        margin: 4vw auto;
+        margin: 8vw auto;
     }
 }
 @media only screen and (min-width: 1200px) {

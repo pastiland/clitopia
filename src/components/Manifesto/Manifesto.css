@@ -18,21 +18,21 @@
     position: relative;
     display: inline-block;
     margin-top: 15vw;
-    padding: 12vw 2vw 15vw 8vw;
+    padding: 12vw 5vw 15vw 10vw;
     z-index:2!important;
     background-color: #ff5bf8;
     background-image: url("../../assets/img/circle-yellow.png");
-    background-position: left bottom;
+    background-position: left center;
     background-repeat: no-repeat;
-    background-size:50vw;
+    background-size:90%;
     z-index:999!important;
 }
 ol {
     counter-reset: item;
     list-style-type: none;
     line-height: 2.2em;
-    margin-left: -10vw;
-    padding: 0 10vw;
+    margin-left: -5vw;
+    padding: 0 5vw;
     text-align: left;
 }
 ol li {
@@ -45,7 +45,7 @@ ol li {
     
 }
 ol li span {
-    margin-left: 10vw;
+    margin-left: 15vw;
     color: #fff;
     font-family: Myriad-Bold;
 } 
@@ -80,14 +80,35 @@ ol li:before {
 /* ************************ */
 @media only screen and (min-width: 576px) {
     .manifesto-container {
-        padding: 25vw 15vw;
+        padding: 10vw 5vw;
+        background-size: 60vw;
     }
     #manifesto-eye img {
         width: 10vw;
     }
+    ol {
+        margin-left: 0;
+        padding: 0 10vw;
+    }
+    ol li span {
+        margin-left: 12vw;
+    } 
 }
 @media only screen and (min-width: 768px) {
-
+    .manifesto-container {
+        padding: 10vw 5vw;
+        background-size: 40vw;
+    }
+    #manifesto-eye img {
+        width: 10vw;
+    }
+    ol {
+        margin-left: 0;
+        padding: 0 5vw;
+    }
+    ol li span {
+        margin-left: 10vw;
+    } 
 }
 @media only screen and (min-width: 992px) {
 

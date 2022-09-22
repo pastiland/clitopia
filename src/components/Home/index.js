@@ -49,6 +49,7 @@ const Home = () => {
             <Intro />
         </section>
 
+        <div className="sep-about"></div>
         <section id="about" ref={about}>
             <About />
         </section>

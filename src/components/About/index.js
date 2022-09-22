@@ -6,7 +6,6 @@ import Eye from "../Eye";
 const About = () => {
     return <>
     
-        <div className="about-sep"><img src={Bg_Pink} alt="Bg_Pink" /></div>
         <div className="about-container section-container">
             <div className="about-content">
                 <h2 className="section-title">ABOUT CLITOPIA</h2>

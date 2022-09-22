@@ -1,37 +1,29 @@
 #about {
     position: relative;
     display: block;
+    z-index:2!important;
     background-image: url("../../assets/img/bg-pink-1.png");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 100vw;
-    z-index:2!important;
-    margin-top: 40vw!important;
-}
-.about-sep {
-    position: relative;
-    display: block;
-    height: auto;
-}
-.about-sep img {
-    position: relative;
-    display: block;
-    width: 100vw;
+    margin-top:45vw;
 }
 .about-container {
     position: relative;
+    display: block;
     width: 100vw;
     background-color: #ff5bf8;
+    padding: 0;
+    margin-top:5vw;
+}
+.about-content {
+    position: relative;
+    display: inline-block;
+    padding: 20vw 15vw 30vw 15vw;
     background-image: url("../../assets/img/circle-pink.png");
     background-position: left center;
     background-repeat: no-repeat;
     background-size: auto 90%;
-    padding: 0;
-}
-.about-content {
-    position: relative;
-    display: block;
-    padding: 20vw 15vw 30vw 15vw;
     margin:0!important;
 }
 .about-content p {
@@ -40,8 +32,8 @@
 #about-eye {
     float: none!important;
     position: absolute;
-    display:;
-    bottom:0vw;
+    display:inline-block;
+    bottom:1vw;
     right:15vw;
     z-index: 999!important
 }
@@ -60,6 +52,10 @@
 }
 @media only screen and (min-width: 768px) {
 
+    .about-content {
+        display: inline-flex;
+        padding: 15vw 0 15vw 0;
+    }
     #about-eye img {
         width: 8vw;
     }

@@ -31,6 +31,9 @@ button.navItems {
     padding-left: 20px;
     padding-right: 20px;
 }
+button.navItems:hover {
+    background-color: #00fff8;
+}
 
 
 /* ************************ */

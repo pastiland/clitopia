@@ -3,7 +3,7 @@
     z-index:2!important;
 }
 .footer-banner {
-    height: 50vh;
+    height: 33vw;
     overflow: hidden;
     background-image: url("../../assets/img/bottom-banner.png");
     background-size: cover;
@@ -149,6 +149,10 @@
     }
 }
 @media only screen and (min-width: 1200px) {
+    .footer-banner {
+        height: 33vw;
+    }
+
     .footer-social ul li a {
         width: 8vw;
         height: 8vw;

@@ -54,20 +54,31 @@
 
     .about-content {
         display: inline-flex;
+        flex-direction: row;
         padding: 15vw 0 15vw 0;
+    }
+    #about .section-title {
+        position: relative;
+        margin-top: 0;
+        padding-top: 0;
+        text-align: right;
+    }
+    #about .section-desc {
+        position: relative;
+        display: block;
+        margin: 0;
+        padding-right: 10vw;
     }
     #about-eye img {
         width: 8vw;
     }
 }
-@media only screen and (min-width: 992px) {
-
-    #about-eye img {
-        width: 7vw;
-    }
-}
 @media only screen and (min-width: 1200px) {
-
+    
+    .about-content {
+        display: inline-flex;
+        padding: 15vw 0 15vw 0;
+    }
     #about-eye img {
         width: 6vw;
     }

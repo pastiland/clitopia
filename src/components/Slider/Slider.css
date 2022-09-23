@@ -1,12 +1,7 @@
-.carousel {
-  margin-top: 6vw;
-  margin-bottom: 6vw;
-}
-
 .swiper {
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 0px;
+  padding-top: 16vw;
+  padding-bottom: 16vw;
 }
 .swiper-slide {
   background-position: center;
@@ -30,26 +25,31 @@
 /* RESPONSIVE MEDIA QUERIES */
 /* ************************ */
 @media only screen and (min-width: 576px) {
+  .swiper {
+    padding-top: 12vw;
+    padding-bottom: 6vw;
+  }
   .swiper-slide {
     width: 42vw !important;
     height: 42vw !important;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {  
+  .swiper {
+    padding-top: 6vw;
+    padding-bottom: 8vw;
+  }
   .swiper-slide {
-    background-position: center;
-    background-size: cover;
     width: 325px !important;
     height: 325px !important;
   }
 }
-@media only screen and (min-width: 992px) {
-
-}
 @media only screen and (min-width: 1200px) {
+  .swiper {
+    padding-top: 6vw;
+    padding-bottom: 4vw;
+  }
   .swiper-slide {
-    background-position: center;
-    background-size: cover;
     width: 350px !important;
     height: 350px !important;
   }

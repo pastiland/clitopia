@@ -69,22 +69,23 @@ const ResponsiveAppBar = ({ handleClick }) => {
                                     horizontal: 'left',
                                 }}
                                 open={Boolean(anchorElNav)}
+                                onBlur={handleCloseNavMenu} 
                                 onClose={handleCloseNavMenu}
                                 sx={{
                                     display: { xs: 'block', md: 'none' },
                                 }}
                             >
 
-                                <Button className="navItems" onClick={() => handleClick('about')}>
+                                <Button className="navItems" onClick={() => handleClick('goToAbout')}>
                                     {'About'}
                                 </Button>
-                                <Button className="navItems" onClick={() => handleClick('legendary')}>
+                                <Button className="navItems" onClick={() => handleClick('goToLegendary')}>
                                     {'Legendary'}
                                 </Button>
-                                <Button className="navItems" onClick={() => handleClick('manifesto')}>
+                                <Button className="navItems" onClick={() => handleClick('goToManifesto')}>
                                     {'Manifesto'}
                                 </Button>
-                                <Button className="navItems" onClick={() => handleClick('team')}>
+                                <Button className="navItems" onClick={() => handleClick('goToTeam')}>
                                     {'Team'}
                                 </Button>
 
@@ -95,16 +96,16 @@ const ResponsiveAppBar = ({ handleClick }) => {
 
                         </Box>
                         <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-                            <Button className="navItems" onClick={() => handleClick('about')}>
+                            <Button className="navItems" onClick={() => handleClick('goToAbout')}>
                                 {'About'}
                             </Button>
-                            <Button className="navItems" onClick={() => handleClick('legendary')}>
+                            <Button className="navItems" onClick={() => handleClick('goToLegendary')}>
                                 {'Legendary'}
                             </Button>
-                            <Button className="navItems" onClick={() => handleClick('manifesto')}>
+                            <Button className="navItems" onClick={() => handleClick('goToManifesto')}>
                                 {'Manifesto'}
                             </Button>
-                            <Button className="navItems" onClick={() => handleClick('team')}>
+                            <Button className="navItems" onClick={() => handleClick('goToTeam')}>
                                 {'Team'}
                             </Button>
 

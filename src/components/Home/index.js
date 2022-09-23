@@ -15,20 +15,20 @@ import Bg_Blue_1 from "../../assets/img/bg-blue-1.png";
 import "./Home.css";
 
 const Home = () => {
-    const about = useRef(null);
-    const team = useRef(null);
-    const manifesto = useRef(null);
-    const legend = useRef(null);
+    const goToAbout = useRef(null);
+    const goToTeam = useRef(null);
+    const goToManifesto = useRef(null);
+    const goToLegendary = useRef(null);
 
     const handleClick = (name) => {
-        if (name === "about") {
-            about.current?.scrollIntoView({ behavior: 'smooth' });
-        } else if (name === "team") {
-            team.current?.scrollIntoView({ behavior: 'smooth' });
-        } else if (name === "manifesto") {
-            manifesto.current?.scrollIntoView({ behavior: 'smooth' });
-        } else if (name === "legendary") {
-            legend.current?.scrollIntoView({ behavior: 'smooth' });
+        if (name === "goToAbout") {
+            goToAbout.current?.scrollIntoView({ behavior:'smooth', block: 'center' });
+        } else if (name === "goToTeam") {
+            goToTeam.current?.scrollIntoView({ behavior:'smooth', block: 'nearest' });
+        } else if (name === "goToManifesto") {
+            goToManifesto.current?.scrollIntoView({ behavior:'smooth', block: 'center' });
+        } else if (name === "goToLegendary") {
+            goToLegendary.current?.scrollIntoView({ behavior:'smooth', block:'center' });
         }
     };
 
@@ -50,7 +50,7 @@ const Home = () => {
         </section>
 
         <div className="sep-about"></div>
-        <section id="about" ref={about}>
+        <section id="about" ref={goToAbout}>
             <About />
         </section>
 
@@ -68,8 +68,8 @@ const Home = () => {
         </section>
 
         <div className="sep-legendary"></div>
-        <section id="legendary">
-            <Legendary legend={legend}/>
+        <section id="legendary" ref={goToLegendary}>
+            <Legendary />
             <div className="circle_div_main">
                 <div className="circle_div" >
                     <img src={Circle} alt="circle" className="circle" />
@@ -78,12 +78,12 @@ const Home = () => {
         </section>
 
         <div className="sep-manifesto"></div>
-        <section id="manifesto" ref={manifesto}>
+        <section id="manifesto" ref={goToManifesto}>
             <Manifesto/>
         </section>
         
         <div className="sep-team"></div>
-        <section id="team" ref={team}>
+        <section id="team" ref={goToTeam}>
             <Team/>
         </section>
         

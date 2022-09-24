@@ -3,12 +3,12 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import hamburger from "../../assets/img/topnav-hamburger.png";
+import logo from "../../assets/img/logo.png";
 import "./Header.css";
 
 const ResponsiveAppBar = ({ handleClick }) => {
@@ -27,23 +27,19 @@ const ResponsiveAppBar = ({ handleClick }) => {
             <AppBar position="static" className="appbar" style={{ background: 'transparent' }}>
                 <Container maxWidth="xl" >
                     <Toolbar disableGutters>
-                        <Typography
-                            variant="h6"
-                            noWrap
-                            component="a"
-                            href="/"
-                            sx={{
-                                mr: 2,
-                                display: { xs: 'none', md: 'flex' },
-                                fontFamily: 'Acumin-Variable-Concept',
-                                fontWeight: 700,
-                                letterSpacing: '.3rem',
-                                color: '#000',
-                                textDecoration: 'none',
-                            }}
-                        >
-                            CLITOPIA
-                        </Typography>
+                        
+                        <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+                            <IconButton
+                                size="large"
+                                aria-label="account of current user"
+                                aria-controls="menu-appbar"
+                                aria-haspopup="true"
+                                onClick={handleOpenNavMenu}
+                                color="inherit"
+                            >
+                                <img src={logo} alt="Clitopia" width={40} />
+                            </IconButton>
+                        </Box>
 
                         <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
                             <IconButton
@@ -91,33 +87,33 @@ const ResponsiveAppBar = ({ handleClick }) => {
 
                             </Menu>
                         </Box>
-                        
-                        <Box sx={{ flexGrow: 1, float: 'right', display: { xs: 'none', md: 'flex' } }}>
 
-                        </Box>
-                        <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+                        <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, padding: "0 5vw" }}>
                             <Button className="navItems" onClick={() => handleClick('goToAbout')}>
                                 {'About'}
                             </Button>
+                            <span>.</span>
                             <Button className="navItems" onClick={() => handleClick('goToLegendary')}>
                                 {'Legendary'}
                             </Button>
+                            <span>.</span>
                             <Button className="navItems" onClick={() => handleClick('goToManifesto')}>
                                 {'Manifesto'}
                             </Button>
+                            <span>.</span>
                             <Button className="navItems" onClick={() => handleClick('goToTeam')}>
                                 {'Team'}
                             </Button>
-
                         </Box>
+
                         <Box sx={{ flexGrow: 0, display: { md: 'flex' } }}>
                             <Tooltip title="Open settings">
                                 <Button className="connect">
                                     {'Connect'}
                                 </Button>
                             </Tooltip>
-
                         </Box>
+
                     </Toolbar>
                 </Container>
             </AppBar>

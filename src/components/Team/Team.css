@@ -36,9 +36,10 @@
     position: relative;
     display: block;
     padding: 2vw;
-    width: 65vw;
+    width: 60vw;
     margin: 0 auto;
     align-items: center;
+    text-align: center;
 }
 p.team-member-name {
     display: block;
@@ -53,6 +54,7 @@ p.team-member-name {
 p.team-member-desc {
     position: relative;
     display: inline-block;
+    text-align: center;
     margin: 0 auto;
     font-family: MyriadPro-LightSemiExt !important;
     padding-left: 3vw;
@@ -103,16 +105,22 @@ p.team-member-desc {
     }
     p.team-member-name {
         width: 30vw;
-        font-size: 2vw;
+        font-size: 1.8vw;
         padding:3vw 0 1vw 0;
+        width: 20vw;
     }
     p.team-member-desc {
         width: 25vw;
-        font-size: 1.8vw;
+        font-size: 1.4vw;
+        width: 20vw;
     }
 }
 @media only screen and (min-width: 1200px) {
 
+    #team .section-title {
+        font-size: 3em;
+        padding: 1vw;
+    }
     .team-container {
         padding: 10vw 3vw 6vw 3vw;
     }
@@ -122,15 +130,19 @@ p.team-member-desc {
     }
     .team-member img {
         padding: 1vw;
-        width: 15vw;
+        width: 18vw;
+        text-align: left;
+        align-items: left;
     }
     p.team-member-name {
         width: 26vw;
-        font-size: 2vw;
-        padding:3vw 0 1vw 0;
+        font-size: 1.8vw;
+        padding: 3vw 0 1vw 0;
+        width: 18vw;
     }
     p.team-member-desc {
         width: 26vw;
-        font-size: 1.5vw;
+        font-size: 1.4vw;
+        width: 18vw;
     }
 }

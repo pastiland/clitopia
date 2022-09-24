@@ -24,7 +24,7 @@
     background-image: url("../../assets/img/circle-yellow.png");
     background-position: left center;
     background-repeat: no-repeat;
-    background-size:90%;
+    background-size: 80vw;
     z-index:999!important;
 }
 ol {
@@ -100,7 +100,7 @@ ol li:before {
     }
     .manifesto-container {
         padding: 2vw 8vw 2vw 8vw;
-        background-size: 50vw;
+        background-size: 45vw;
         padding-bottom: 12vw;
     }
     #manifesto-eye img {
@@ -115,5 +115,22 @@ ol li:before {
     } 
 }
 @media only screen and (min-width: 1200px) {
-
+    #manifesto .section-title {
+        margin-bottom: 2vw;
+    }
+    .manifesto-container {
+        padding: 2vw 8vw 2vw 8vw;
+        padding-bottom: 12vw;
+        background-size: 35vw;
+    }
+    #manifesto-eye img {
+        width: 10vw;
+    }
+    ol {
+        margin-left: 0;
+        padding: 0 5vw;
+    }
+    ol li span {
+        margin-left:10vw;
+    } 
 }

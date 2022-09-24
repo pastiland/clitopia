@@ -7,7 +7,7 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 import "./Footer.css";
 
-const Footer = () => {
+const Footer = ({ handleClick }) => {
     return <> 
         <div className="footer-banner"></div>
         <div className="footer-container">
@@ -20,7 +20,7 @@ const Footer = () => {
             </div>
             <div className="footer-text">Join the community for more info!</div>
             <div className="footer-logo">
-                <a href="#top"><img src={Logo_bottom} alt="Back to Top" /></a>
+                <a href="javascript:void(0);" onClick={() => handleClick('goToTop')}><img src={Logo_bottom} alt="Back to Top" /></a>
             </div>
         </div>
     </>

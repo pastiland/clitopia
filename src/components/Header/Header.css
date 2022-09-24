@@ -5,6 +5,11 @@
     left:0;
     z-index:999!important;
 }
+#header span {
+    color: #111!important;
+    font-weight: bold;
+    line-height: 1.4em;
+}
 .appbar {
     position: relative;
     top:0;
@@ -27,7 +32,7 @@ button.navItems {
     display: block;
     position: relative;
     margin: 0 auto;
-    padding: 2vw 8vw;
+    padding: 0 1vw;
     color: black;
     font-weight: 800;
     font-family: 'acumin-pro-condensed', sans-serif;
@@ -40,6 +45,7 @@ button.navItems:hover {
     z-index:999!important;
 }
 .MuiPopover-paper {
+    display: inline-block;
     top: 75px!important;
     left: 10px!important;
     z-index:9!important;
@@ -47,9 +53,9 @@ button.navItems:hover {
 }
 .MuiPopover-paper ul button {
     display: block;
-    float: left;
-    width: 100vw;
+    /* width: 100vw; */
     text-align: left!important;
+    padding: 2vw 6vw;
 }
 
 
@@ -58,16 +64,18 @@ button.navItems:hover {
 /* ************************ */
 @media only screen and (min-width: 576px) {
 
+    button.navItems {
+        padding: 0 1.2vw;
+    }
 }
 @media only screen and (min-width: 768px) {
 
-}
-@media only screen and (min-width: 992px) {
-
+    button.navItems {
+        padding: 0 1.4vw;
+    }
 }
 @media only screen and (min-width: 1200px) {
     button.navItems {
-        padding-left: 30px;
-        padding-right: 30px;
+        padding: 0 1.6vw;
     }
 }

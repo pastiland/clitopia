@@ -171,18 +171,18 @@
         height: 25vw;
     }
     .footer-social ul li a {
-        width: 5vw;
-        height: 5vw;
+        width: 1vw;
+        height: 1vw;
         margin: 0 2vw;
     }
     .footer-social ul li:nth-child(1) a {
-        font-size: 5vw;
+        font-size: 4.5vw;
     }
     .footer-social ul li:nth-child(2) a {
         font-size: 4vw;
     }
     .footer-social ul li:nth-child(3) a {
-        font-size: 5.5vw;
+        font-size: 5vw;
     }
     .footer-text {
         font-size: 4vh;

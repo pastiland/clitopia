@@ -15,13 +15,16 @@ import Bg_Blue_1 from "../../assets/img/bg-blue-1.png";
 import "./Home.css";
 
 const Home = () => {
+    const goToTop = useRef(null);
     const goToAbout = useRef(null);
     const goToTeam = useRef(null);
     const goToManifesto = useRef(null);
     const goToLegendary = useRef(null);
 
     const handleClick = (name) => {
-        if (name === "goToAbout") {
+        if (name === "goToTop") {
+            goToTop.current?.scrollIntoView({ behavior:'smooth', block: 'nearest' });
+        } else if (name === "goToAbout") {
             goToAbout.current?.scrollIntoView({ behavior:'smooth', block: 'center' });
         } else if (name === "goToTeam") {
             goToTeam.current?.scrollIntoView({ behavior:'smooth', block: 'nearest' });
@@ -36,7 +39,7 @@ const Home = () => {
             
         <div id="Bg_RandomNfts" />
 
-        <section id="header">
+        <section id="header" ref={goToTop}>
             <Header handleClick={handleClick} />
         </section>
 
@@ -88,7 +91,7 @@ const Home = () => {
         </section>
         
         <section id="footer">
-            <Footer />
+            <Footer handleClick={handleClick} />
         </section>
     </>
 }

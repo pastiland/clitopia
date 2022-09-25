@@ -1,4 +1,5 @@
 {/* 
+
 import './App.css';
 import Home from "./components/Home";
 
@@ -11,8 +12,8 @@ function App() {
 }
 
 export default App;
-
 */}
+
 
 import './App.css'
 import { Suspense, lazy } from "react"

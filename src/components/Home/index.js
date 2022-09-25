@@ -36,7 +36,7 @@ const Home = () => {
     };
 
     return <>
-            
+    
         <div id="Bg_RandomNfts" />
 
         <section id="header" ref={goToTop}>

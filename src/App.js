@@ -18,7 +18,8 @@ export default App;
 import './App.css'
 import { Suspense, lazy } from "react"
 import Loading from "./components/Loading"
-import Home from "./components/Home"
+//import Home from "./components/Home"
+const Home = lazy(() => import('./components/Home'));
 
 const App = () => (
   <Suspense fallback={<Loading />}>

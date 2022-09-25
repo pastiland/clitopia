@@ -17,7 +17,7 @@ const About = ({about}) => {
                 </div>
             </div>
         </div>
-        <Eye id="about-eye" />
+        <Eye />
     </>
 }
 export default About;

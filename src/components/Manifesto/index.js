@@ -18,7 +18,7 @@ const Manifesto = ({ menifesto }) => {
                     </ol>
                 </div>
             </div>
-            <Eye id="manifesto-eye" />
+            <Eye />
         </div>
     </>
 }

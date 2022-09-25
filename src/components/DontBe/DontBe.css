@@ -11,7 +11,7 @@
     font-weight: bold;
     letter-spacing: 2px;
     font-size: 0.5em;
-    padding: 2em 1.5em;
+    padding: 4vw 3vw;
     margin: 8vw 12vw;
     border-radius: 0.5rem;
     background-color: #000;
@@ -112,7 +112,11 @@
 @media only screen and (min-width: 1200px) {
     .btn--action{
         font-size: 2em;
-        padding: 0.6em 2em;
+        padding: 1vw 2vw;
+        margin: 4vw;
+    }
+    .cta-container  {
+        padding: 5vw 0!important;
     }
 }
 

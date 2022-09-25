@@ -22,7 +22,7 @@
     z-index:2!important;
     background-color: #ff5bf8;
     background-image: url("../../assets/img/circle-yellow.png");
-    background-position: left center;
+    background-position: left bottom;
     background-repeat: no-repeat;
     background-size: 80vw;
     z-index:999!important;
@@ -103,9 +103,6 @@ ol li:before {
         background-size: 45vw;
         padding-bottom: 12vw;
     }
-    #manifesto-eye img {
-        width: 10vw;
-    }
     ol {
         margin-left: 0;
         padding: 0 5vw;
@@ -116,21 +113,30 @@ ol li:before {
 }
 @media only screen and (min-width: 1200px) {
     #manifesto .section-title {
-        margin-bottom: 2vw;
+        margin-bottom: 0vw;
+        padding-top:0;
     }
     .manifesto-container {
-        padding: 2vw 8vw 2vw 8vw;
-        padding-bottom: 12vw;
+        padding: 0 8vw;
+        padding-bottom: 8vw;
         background-size: 35vw;
-    }
-    #manifesto-eye img {
-        width: 10vw;
+        background-size:30vw;
     }
     ol {
         margin-left: 0;
-        padding: 0 5vw;
+        padding: 0 3vw;
+    }
+    ol li:before {
+        height: 1.4em;
+        width: 1.4em;
+        line-height: 1.6em;
     }
     ol li span {
-        margin-left:10vw;
+        margin-left:8vw;
+        font-size: 0.9em;
     } 
+    #manifesto .eye {
+        right: 8vw!important;
+        bottom:2vw!important;
+    }
 }

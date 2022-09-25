@@ -1,5 +1,5 @@
 #legendary {
-    display: flex;
+    display: block;
     position: relative;
     background-image: url("../../assets/img/bg-blue-2.png");
     background-repeat: no-repeat;
@@ -10,32 +10,34 @@
 .sep-legendary {
     position:absolute;
     width: 100vw;
-    height: 20vw;
+    height: 10vw;
+    margin-bottom: 20vw;
     z-index:2!important;
     background-color: #fff;
 }
 .legendary-container {
-    display: block;
     position: relative;
-    margin-top: 5vw;
-    padding: 20vw 0 10vw 0;
-    z-index:2!important;
+    display: block;
+    width: 100vw;
+    padding: 10vw 0 0;
     background-color: #00fff8;
 }
 .legendary-content {
+    position: relative;
+    display: inline-block;
     padding: 0 15vw;
     font-size: 1em;
     line-height: 1.5em;
     color: #000;
 }
-.legendary-content p{
+.legendary-content p {
     color: #000;
 }
-#legendary-eye {
+#legendary .eye {
     display: block;
     position: absolute;
     top:0;
-    left:20vw;
+    right: 10vw;
 }
 
 
@@ -45,16 +47,29 @@
 /* ************************ */
 @media only screen and (min-width: 576px) {
     .legendary-container {
-        margin-top: 5vw;
-        padding: 15vw 0 10vw 0;
+        padding: 8vw 0;
     }
     .legendary-content {
         padding: 0 10vw;
     }
 }
 @media only screen and (min-width: 768px) {
-
+    .legendary-container {
+        padding: 6vw 0;
+    }
+    .legendary-content {
+        padding: 0 10vw;
+    }
 }
 @media only screen and (min-width: 1200px) {
-
+    .legendary-container {
+        padding: 3vw 0;
+    }
+    .legendary-content {
+        padding: 0 20vw;
+    }
+    #legendary .section-title
+    {
+        padding:1vw 0;
+    } 
 }

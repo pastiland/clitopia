@@ -30,25 +30,11 @@
 .about-content p {
     color: white;
 }
-#about-eye {
-    float: none!important;
-    position: absolute;
-    display:inline-block;
-    bottom:1vw;
-    right:15vw;
-    z-index: 999!important
-}
-#about-eye img {
-    width: 10vw;
-}
 
 
 @media only screen and (min-width: 576px) {
     .about-content {
         padding: 15vw 10vw 15vw 10vw;
-    }
-    #about-eye img {
-        width: 9vw;
     }
 }
 @media only screen and (min-width: 768px) {
@@ -70,9 +56,6 @@
         margin: 0;
         padding-right: 10vw;
     }
-    #about-eye img {
-        width: 8vw;
-    }
 }
 @media only screen and (min-width: 1200px) {
     
@@ -93,8 +76,12 @@
         display: block;
         margin: 0;
     }
-    #about-eye img {
-        width: 8vw;
+    #about .eye {
+        right: 8vw!important;
+        bottom:2vw!important;
+    }
+    .eye img {
+        width: 3vw;
     }
 }
 

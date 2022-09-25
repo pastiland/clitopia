@@ -88,7 +88,7 @@ const ResponsiveAppBar = ({ handleClick }) => {
                             </Menu>
                         </Box>
 
-                        <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, padding: "0 5vw" }}>
+                        <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, float: "left", padding: "0 10vw 0 0" }}>
                             <Button className="navItems" onClick={() => handleClick('goToAbout')}>
                                 {'About'}
                             </Button>

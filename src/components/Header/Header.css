@@ -8,7 +8,7 @@
 #header span {
     color: #111!important;
     font-weight: bold;
-    line-height: 1.4em;
+    line-height: 3em;
 }
 .appbar {
     position: relative;
@@ -65,17 +65,29 @@ button.navItems:hover {
 @media only screen and (min-width: 576px) {
 
     button.navItems {
-        padding: 0 1.2vw;
+        padding: 1vw 1.2vw;
+        text-align: center;
+    }
+    #header span {
+        line-height: 2em;
     }
 }
 @media only screen and (min-width: 768px) {
 
     button.navItems {
-        padding: 0 1.4vw;
+        padding: 1vw 1.4vw;
+        text-align: center;
+    }
+    #header span {
+        line-height: 2.5em;
     }
 }
 @media only screen and (min-width: 1200px) {
     button.navItems {
-        padding: 0 1.6vw;
+        padding: 1vw 1.6vw;
+        text-align: center;
+    }
+    #header span {
+        line-height: 3em;
     }
 }

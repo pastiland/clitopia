@@ -74,9 +74,9 @@
     line-height: 0;
     font-size: 10vw;
     margin: 0 2vw;
-    border-radius: 1vw;
+    border-radius: 2vw;
     overflow: hidden;
-    border: 3px solid #000;
+    //border: 3px solid #000;
     z-index: 1;
 }
 .footer-social ul li:nth-child(1) a {
@@ -101,8 +101,10 @@
   
 .footer-social ul li a:hover .icon {
     color: #fff;
-    color: #000;
     transform: rotateY(360deg);
+}
+.footer-social ul li:nth-child(2) a:hover .icon {
+    color: #000;
 }
 .footer-social ul li a:before {
     content: "";
@@ -119,10 +121,10 @@
     z-index:-100;
 }
 .footer-social ul li:nth-child(1) a:before{
-    background: #75fbf7; /* #55acee */
+    background: #8a1af5; /* #5a64ea */
 }
 .footer-social ul li:nth-child(2) a:before{
-    background: #8a1af5; /* #5a64ea */
+    background: #75fbf7; /* #55acee */
 }
 .footer-social ul li:nth-child(3) a:before {
     background: #e933cb; /* #743ca5 */
@@ -142,15 +144,15 @@
         height: 35vw;
     }
     .footer-social ul li a {
-        width: 7vw;
-        height: 7vw;
+        width: 5vw;
+        height: 5vw;
         margin: 0 2vw;
     }
     .footer-social ul li:nth-child(1) a {
-        font-size: 7vw;
+        font-size: 6vw;
     }
     .footer-social ul li:nth-child(2) a {
-        font-size: 6vw;
+        font-size: 7vw;
     }
     .footer-social ul li:nth-child(3) a {
         font-size: 7.5vw;
@@ -176,10 +178,10 @@
         margin: 0 2vw;
     }
     .footer-social ul li:nth-child(1) a {
-        font-size: 4.5vw;
+        font-size: 4vw;
     }
     .footer-social ul li:nth-child(2) a {
-        font-size: 4vw;
+        font-size: 4.5vw;
     }
     .footer-social ul li:nth-child(3) a {
         font-size: 5vw;

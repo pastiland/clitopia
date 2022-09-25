@@ -64,13 +64,13 @@ ol li:before {
     font-weight: 700;
     display: inline-block;
 }
-#manifesto-eye {
+#manifesto .eye {
     display: block;
     position: absolute;
-    bottom:3vw;
-    right:20vw;
+    bottom:0;
+    right:10vw;
 }
-#manifesto-eye img {
+#manifesto .eye img {
     width: 15vw;
 }
 
@@ -135,8 +135,7 @@ ol li:before {
         margin-left:8vw;
         font-size: 0.9em;
     } 
-    #manifesto .eye {
-        right: 8vw!important;
-        bottom:2vw!important;
+    #manifesto .eye img {
+        width: 8vw;
     }
 }

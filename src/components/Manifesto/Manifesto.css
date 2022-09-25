@@ -18,7 +18,7 @@
     position: relative;
     display: inline-block;
     margin-top: 16vw;
-    padding: 12vw 5vw 15vw 10vw;
+    padding: 12vw 5vw 15vw 12vw;
     z-index:2!important;
     background-color: #ff5bf8;
     background-image: url("../../assets/img/circle-yellow.png");
@@ -67,11 +67,11 @@ ol li:before {
 #manifesto-eye {
     display: block;
     position: absolute;
-    bottom:2vw;
+    bottom:3vw;
     right:20vw;
 }
 #manifesto-eye img {
-    width: 12vw;
+    width: 15vw;
 }
 
 

@@ -18,6 +18,7 @@ section {
     top:0;
     left:0;
     display: contents;
+    overflow: hidden;
 }
 .section-container {
     position:relative;

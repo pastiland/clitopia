@@ -1,4 +1,5 @@
 import React from "react";
+import ModalBottom from '../ModalBottom';
 import "./DontBe.css";
 
 const DontBE=()=>{
@@ -12,6 +13,8 @@ const DontBE=()=>{
             <div>
                 <a href="#" class="btn btn--action"><div><span className="strike">DON'T</span> BE A PUSSY</div></a>
             </div>
-        </div></>
+            <ModalBottom />
+        </div>
+    </>
 }
 export default DontBE;

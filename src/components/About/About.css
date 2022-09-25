@@ -30,6 +30,10 @@
 .about-content p {
     color: white;
 }
+#about .eye {
+    right: 8vw!important;
+    bottom:1vw!important;
+}
 
 
 @media only screen and (min-width: 576px) {
@@ -79,9 +83,6 @@
     #about .eye {
         right: 8vw!important;
         bottom:2vw!important;
-    }
-    .eye img {
-        width: 3vw;
     }
 }
 

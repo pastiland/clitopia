@@ -19,7 +19,7 @@
     position: relative;
     display: block;
     width: 100vw;
-    padding: 10vw 0 0;
+    padding: 15vw 0 0;
     background-color: #00fff8;
 }
 .legendary-content {
@@ -34,10 +34,11 @@
     color: #000;
 }
 #legendary .eye {
-    display: block;
+    display: inline-block;
     position: absolute;
-    top:0;
-    right: 10vw;
+    text-align: left;
+    top:3vw;
+    left: 10vw;
 }
 
 
@@ -47,7 +48,7 @@
 /* ************************ */
 @media only screen and (min-width: 576px) {
     .legendary-container {
-        padding: 8vw 0;
+        padding: 12vw 0;
     }
     .legendary-content {
         padding: 0 10vw;
@@ -55,7 +56,7 @@
 }
 @media only screen and (min-width: 768px) {
     .legendary-container {
-        padding: 6vw 0;
+        padding: 10vw 0;
     }
     .legendary-content {
         padding: 0 10vw;
@@ -63,7 +64,7 @@
 }
 @media only screen and (min-width: 1200px) {
     .legendary-container {
-        padding: 3vw 0;
+        padding: 5vw 0;
     }
     .legendary-content {
         padding: 0 20vw;

@@ -73,11 +73,6 @@ const Home = () => {
         <div className="sep-legendary"></div>
         <section id="legendary" ref={goToLegendary}>
             <Legendary />
-            <div className="circle_div_main">
-                <div className="circle_div" >
-                    <img src={Circle} alt="circle" className="circle" />
-                </div>
-            </div>
         </section>
 
         <div className="sep-manifesto"></div>

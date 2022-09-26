@@ -1,4 +1,7 @@
-body {margin: 0;
+@import-normalize;
+
+body {
+    margin: 0;
     overflow-x: hidden;
     min-height: 100vh;
     min-height: stretch;
@@ -12,38 +15,4 @@ p {
     margin: 0;
     padding: 0;
     display: contents;
-}
-
-.Bg_Blue_1 {
-    display:block;
-    position: relative;
-    width: 100vw;
-    bottom:0!important;
-}
-.Bg_Pink {
-    max-width: 100%;
-    display: block;
-}
-
-.circle {
-    position: relative;
-    margin-top: -18%;
-    z-index: 59;
-    width: 200px;
-
-}
-
-.circle_div,
-.about_eye_mobile,
-.eye_btnsction_mobile {
-    display: none;
-}
-
-
-
-@media only screen and (max-width: 720px) {
-    .intro {
-        min-width: 50%;
-        //margin-bottom:-60vw;
-    }
 }

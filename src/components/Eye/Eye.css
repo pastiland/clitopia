@@ -7,6 +7,7 @@
 }
 .eye img {
     width: 12vw;
+    transition: all .1s ease-out;
 }
 
 /* ************************ */
@@ -14,17 +15,17 @@
 /* ************************ */
 @media only screen and (min-width: 576px) {
     .eye img {
-        width: 10vw;
+        width: 12vw;
     }
 }
 @media only screen and (min-width: 768px) {
     .eye img {
-        width: 8vw;
+        width: 10vw;
     }
 }
 @media only screen and (min-width: 992px) {
     .eye img {
-        width: 7vw;
+        width: 8vw;
     }
 }
 @media only screen and (min-width: 1200px) {

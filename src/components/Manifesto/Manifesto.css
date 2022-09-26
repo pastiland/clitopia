@@ -3,7 +3,7 @@
     display: flex;
     background-image: url("../../assets/img/bg-pink-2.png");
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: top center;
     background-size: 100vw;
     z-index:2!important;
 }
@@ -21,7 +21,7 @@
     padding: 12vw 5vw 15vw 12vw;
     z-index:2!important;
     background-color: #ff5bf8;
-    background-image: url("../../assets/img/circle-yellow.png");
+    background-image: url("../../assets/img/circle-pink.png");
     background-position: left center;
     background-repeat: no-repeat;
     background-size: 80vw;
@@ -70,9 +70,6 @@ ol li:before {
     bottom:0;
     right:10vw;
 }
-#manifesto .eye img {
-    width: 15vw;
-}
 
 
 /* ************************ */
@@ -101,7 +98,6 @@ ol li:before {
     .manifesto-container {
         padding: 2vw 8vw 2vw 8vw;
         background-size: 45vw;
-        padding-bottom: 12vw;
     }
     ol {
         margin-left: 0;

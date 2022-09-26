@@ -5,12 +5,12 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "./Slider.css";
 
-import Slide1 from "../../assets/img/slider/slider_1.webp"
-import Slide2 from "../../assets/img/slider/Slider_2.webp"
-import Slide3 from "../../assets/img/slider/Slider_3.webp"
-import Slide4 from "../../assets/img/slider/Slider_4.webp"
-import Slide5 from "../../assets/img/slider/Slider_5.webp"
-import Slide6 from "../../assets/img/slider/Slider_6.webp"
+import Slide1 from "../../assets/img/slider/slider_1.png"
+import Slide2 from "../../assets/img/slider/Slider_2.png"
+import Slide3 from "../../assets/img/slider/Slider_3.png"
+import Slide4 from "../../assets/img/slider/Slider_4.png"
+import Slide5 from "../../assets/img/slider/Slider_5.png"
+import Slide6 from "../../assets/img/slider/Slider_6.png"
 
 // import required swiper modules
 import { Autoplay, EffectCoverflow, Pagination } from "swiper";

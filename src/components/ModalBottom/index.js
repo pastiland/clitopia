@@ -11,11 +11,17 @@ import './ModalBottom.css';
 const Bottom = () => {
   const [isOpen, setOpen] = React.useState(false);
   return <>
+  {/*
       <button onClick={() => setOpen(true)}>Open bottom modal</button>
+  */}
+      <div>
+        <a href="javascript:void(0)" onClick={() => setOpen(true)} class="btn btn--action"><div><span className="strike">DON'T</span> BE A PUSSY</div></a>
+      </div>
       <BottomModal isOpen={isOpen} onDismiss={() => setOpen(false)}>
 
-        <ModalTitle>NFP from Clitopia</ModalTitle>
-        <p>You don't own any NFP :_)</p>
+        <ModalTitle>Clitopia</ModalTitle>
+        <p>You don't own any NFP!</p>
+        <br/><br/><br/>
 
         <ModalCloseTarget>
           <button>Close</button>

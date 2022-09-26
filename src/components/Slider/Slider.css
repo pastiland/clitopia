@@ -6,7 +6,7 @@
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 60vw !important;
+  width: 55vw !important;
   -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
   box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
 }

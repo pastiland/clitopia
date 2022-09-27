@@ -35,10 +35,9 @@
     color: #000;
 }
 #legendary .eye {
-    display: inline-block;
+    display: block;
     position: absolute;
-    text-align: left;
-    top: 0;
+    top: -2vw;
     left: 10vw;
 }
 

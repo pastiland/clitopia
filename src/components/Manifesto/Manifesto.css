@@ -18,7 +18,7 @@
     position: relative;
     display: inline-block;
     margin-top: 16vw;
-    padding: 12vw 5vw 18vw 12vw;
+    padding: 12vw 5vw 18vw 4vw;
     z-index:2!important;
     background-color: #ff5bf8;
     background-image: url("../../assets/img/circle-pink.png");
@@ -30,9 +30,9 @@
 ol {
     counter-reset: item;
     list-style-type: none;
-    line-height: 2em;
-    margin-left: -5vw;
-    padding: 0 5vw 1vw 5vw;
+    line-height: 1.6em;
+    margin-left: -2vw;
+    padding: 0 0 1vw 4vw;
     text-align: left;
 }
 ol li {
@@ -67,8 +67,8 @@ ol li:before {
 #manifesto .eye {
     display: block;
     position: absolute;
-    bottom:1vw;
-    right:10vw;
+    bottom: 6vw;
+    right: 14vw;
 }
 
 

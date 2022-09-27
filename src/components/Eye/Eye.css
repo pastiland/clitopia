@@ -1,6 +1,7 @@
 .eye {
     position: absolute;
     display: flex;
+    width: 12vw;
     bottom:1vw;
     right:15vw;
     z-index: 999!important
@@ -19,16 +20,25 @@
     }
 }
 @media only screen and (min-width: 768px) {
+    .eye {
+        width: 10vw;
+    }
     .eye img {
         width: 10vw;
     }
 }
 @media only screen and (min-width: 992px) {
+    .eye {
+    width: 8vw;
+    }
     .eye img {
         width: 8vw;
     }
 }
 @media only screen and (min-width: 1200px) {
+    .eye {
+        width: 6vw;
+    }
     .eye img {
         width: 6vw;
     }

@@ -1,41 +1,9 @@
 import React from "react";
 import { useRef, useState, useEffect }  from "react";
 import EyeImg from "../../assets/img/eye.png";
-import useWindowDimensions from '../../hooks/useWindowDimensions';
 import "./Eye.css";
 
 const Eye = props => {
-
- {/* 
-  let elem = document.querySelector('img');
-  let eye = elem.getBoundingClientRect();
-  for (const key in eye) {
-    if (typeof eye[key] !== 'function') {
-      //setEyeX(eye[key]);
-    }
-  }
-
-
-  function update() {
-    const container = document.getElementById("Bg_RandomNfts");
-    const elem = document.getElementById("eye");
-    const eye = elem.getBoundingClientRect();
-  
-    container.innerHTML = '';
-    for (const key in eye) {
-      if (typeof eye[key] !== 'function') {
-
-        const eyeXX = eye[key];
-      }
-    }
-  }
-
-  document.addEventListener('scroll', update);
-  update();
-*/}
-
-
-
 
   // This ref will be connected to the eye img
   const eyeRef = useRef();
@@ -81,7 +49,7 @@ const Eye = props => {
 
   // This function calculate the current mouse position
   const mousePosition = useMousePosition();
-  const { width, height } = useWindowDimensions();
+  // const { width, height } = useWindowDimensions();
 
   // This function calculate the rotation relative to the current mouse position
   const deltaX = (eyeX + eyeWidth/2) - mousePosition.x;
@@ -93,19 +61,39 @@ const Eye = props => {
   }
   let rotation = deg;
 
+  /*
+  let angle = rotation % 360;
+  let diff = (360 - ((angle) - (deg)))%360;
+
+  const getRotation = () => {
+    if(diff > 180) {
+      diff = (360-diff);
+      setRotation(deg - diff);
+    } else {
+      setRotation(deg + diff);
+    }
+  };
+
+  // Get the position of the eye in the beginning
+  useEffect(() => {
+    getRotation();
+  }, []);
+*/
 
 
-  
+
+
 
 
   return <>
       <div id={props.id} className="eye">
         <img ref={eyeRef} id="eye" src={EyeImg} style={{ transform: `rotate(${rotation}deg)`, webkitTransition: `rotate(${rotation}deg)` }} alt="eye" />
       </div>
-      {/*
+  {/*
       <h1>Deg: {deg}</h1>
       <h1>Rotation: {rotation}</h1>
-       */}
+      <h1>Diff: {diff}</h1>
+*/}
     </>
 }
 
@@ -131,5 +119,3 @@ const useMousePosition = () => {
 };
 
 export default Eye;
-  
-

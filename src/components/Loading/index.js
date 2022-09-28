@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Spinner from "../../assets/img/spinner3.gif";
+import Spinner from "../../assets/img/logo.png";
 
 const Loading = () => {
     return <>

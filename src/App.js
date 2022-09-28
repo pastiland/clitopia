@@ -24,7 +24,7 @@ const Home = lazy(() => import('./components/Home'));
 const App = () => (
   <Suspense fallback={<Loading />}>
     <div className="App">
-    <Loading />
+      <Home />
     </div>
   </Suspense>
 )

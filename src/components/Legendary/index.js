@@ -10,7 +10,9 @@ const Legendary = () => {
             <Eye />
             <div className="legendary-content">
                 <h2 className="section-title" ref={legend}>LEGENDARY</h2>
-                <p className="section-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p className="section-desc">The legendary Clitizens are the 25 founding mothers of Clitopia. Combinations of their DNA have made possible the beginning of the new fertilized free society.</p>
+                <p className="section-desc">The traits of these 25 Legendary founding mothers are the template to 9,974 Clitizens.</p>
+                <p className="section-desc">With a little luck you may get your hands on one of these very special NFTs</p>
             </div>
             <div className="carousel"><Slider /></div>
         </div>

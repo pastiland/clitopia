@@ -40,7 +40,7 @@ section {
 .section-desc {
     float:left;
     position: relative;
-    display: inline-flex;
+    display: inline-block;
     font-family: Myriad-Bold !important;
     font-size: 0.9em;
     line-height: 1.8em;
@@ -48,13 +48,14 @@ section {
     text-justify: inter-word;
 }
 p.cta-headline {
-    display: block;
+    display: block!important;
     font-size: 1em;
     line-height: 1.5em;
     font-weight: 800;
     margin: auto;
     padding: 0 5vw;
     font-family: sans-serif;
+    margin-bottom: 3vw;
 }
 .cta-container > button {
     background-color: black;

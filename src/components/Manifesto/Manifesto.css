@@ -1,26 +1,14 @@
 #manifesto {
     position: relative;
     display: flex;
-    background-image: url("../../assets/img/bg-pink-2.png");
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 100vw;
     z-index:2!important;
-}
-.sep-manifesto {
-    position: absolute;
-    width: 100vw;
-    height: 20vw;
-    z-index: 2!important;
-    background-color: #00fff8;
 }
 .manifesto-container {
     position: relative;
     display: inline-block;
-    margin-top: 16vw;
     padding: 12vw 5vw 18vw 4vw;
     z-index:2!important;
-    background-color: #ff5bf8;
+    background-color: #ea33d0;
     background-image: url("../../assets/img/circle-pink.png");
     background-position: left center;
     background-repeat: no-repeat;
@@ -109,8 +97,8 @@ ol li:before {
 }
 @media only screen and (min-width: 1200px) {
     #manifesto .section-title {
-        margin-bottom: 0vw;
-        padding-top:0;
+        margin-bottom: 4vw;
+        padding-top: 4vw;
     }
     .manifesto-container {
         padding: 0 8vw;

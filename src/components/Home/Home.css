@@ -30,7 +30,7 @@ section {
 }
 .section-title {
     display: block;
-    margin: 5vw auto;
+    margin: 0 auto;
     font-family: MyriadPro-BoldSemiExt;
     font-weight: 800;
     padding: 5vw;
@@ -38,24 +38,24 @@ section {
     text-align: center;
 }
 .section-desc {
-    float:left;
     position: relative;
-    display: inline-block;
-    font-family: Myriad-Bold !important;
-    font-size: 0.9em;
+    display: block;
+    margin: 0 auto;
+    font-family: Myriad-Variable-Concept !important;
+    font-size: 1em;
+    font-weight: bold;
     line-height: 1.8em;
-    text-align: justify;
+    text-align: center;
     text-justify: inter-word;
 }
 p.cta-headline {
     display: block!important;
-    font-size: 1em;
+    font-size: 2em;
     line-height: 1.5em;
     font-weight: 800;
-    margin: auto;
-    padding: 0 5vw;
+    margin: 0 auto;
+    padding: 0 5vw 2vw 0;
     font-family: sans-serif;
-    margin-bottom: 3vw;
 }
 .cta-container > button {
     background-color: black;
@@ -64,7 +64,7 @@ p.cta-headline {
     letter-spacing: 2px;
     font-size: 20px;
     padding: 12px 40px;
-    margin-top: 8vw;
+    margin-top: 6vw;
     cursor: pointer;
 }
 
@@ -81,8 +81,9 @@ p.cta-headline {
         font-size: 1.25m;
     }
     p.cta-headline {
-        font-size: 1.4em;
+        font-size: 2em;
         line-height: 1.4em;
+        margin-bottom: 1.5vw;
     }
 }
 @media only screen and (min-width: 768px) {
@@ -96,8 +97,9 @@ p.cta-headline {
         font-size: 1.2em;
     }
     p.cta-headline {
-        font-size: 2em;
+        font-size: 2.5em;
         line-height: 1.5em;
+        margin-bottom: 0.5vw;
     }
 }
 @media only screen and (min-width: 1200px) {
@@ -106,12 +108,14 @@ p.cta-headline {
     }
     .section-title {
         font-size: 3.5em;
+        margin-bottom: 3vw;
     }
     .section-desc {
         font-size: 1.4em;
     }
     p.cta-headline {
-        font-size: 2.5em;
+        font-size: 3em;
         line-height: 2em;
+        margin-bottom: 0vw;
     }
 }

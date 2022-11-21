@@ -1,62 +1,89 @@
 #choose {
     position: relative;
     display: block;
-    z-index:2!important;
-    margin-top:-1vw;
-}
-.sep-choose {
-    background-image: url("../../assets/img/bg-blue-2.png");
+    background-image: url("../../assets/img/bg/bg_07_choose.png");
     background-repeat: no-repeat;
     background-position: center top;
-    position: relative;
-    display: block;
-    height: 10vw;
     z-index:2!important;
-    background-color: #ff5bf8;
-}
-.choose-section {
-    position: relative;
-    display: inline-block;
-    width:100vw;
-    padding: 16vw 0 10vw 0;
-    z-index:2!important;
-    background-color: #00fff8;
+    padding-top:30px;
     margin-top:-10vw;
 }
-.choose-section > button {
-    background-color: black;
-    color: white;
+.choose-container {
+    position: relative;
+    display: block;
+    width: 100vw;
+    background-color: #ea33d0;
+    color: #fff;
+    padding: 0;
+    margin-top:3vw;
+}
+.choose-content {
+    position: relative;
+    display: inline-block;
+    padding: 0vw 10vw 0 10vw;
+    margin:0!important;
+    overflow: hidden;
+}
+.choose-content .section-title {
+    color: #fff;
+}
+.choose-content p {
+    color: #fff;
+}
+.choose-content .section-desc {
+    margin: 0 auto!important;
+    display: block;
+}
+button {
+    display: inline-block;
+    position: relative;
     font-weight: bold;
     letter-spacing: 2px;
-    font-size: 20px;
-    padding: 12px 40px;
-    margin-top: 3vw;
+    font-size: 0.5em;
+    padding: 3vw 4vw;
+    border-radius: 1rem;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    transition: all .5s ease 0s;
+    margin: 3vw auto 0;
+    border:1px solid #000;
+}
+.choose-content button {
+    margin-bottom: -10vw;
+}
+.choose-container .eye {
+    //right: 50vw!important;
+    bottom:5vw;
 }
 
-/* ************************ */
-/* RESPONSIVE MEDIA QUERIES */
-/* ************************ */
-@media only screen and (min-width: 576px) {
 
+@media only screen and (min-width: 576px) {
+    .choose-content {
+        padding: 10vw 10vw 10vw 10vw;
+    }
 }
 @media only screen and (min-width: 768px) {
 
-}
-@media only screen and (min-width: 992px) {
-    .sep-choose {
-        height: 9vw;
+    #choose .section-title {
+        position: relative;
+        margin-top: 0;
+        padding-top: 0;
     }
 }
 @media only screen and (min-width: 1200px) {
-    .choose-section {
-        padding: 15vw 0 7vw 0;
+    
+    .choose-content {
+        padding: 7vw 10vw 5vw 10vw;
     }
-    .choose-section p {
-        display:inline-block!important;
-        font-size: 2em!important;
-        padding:1vw!important;
+    #choose .section-title {
+        margin-bottom: -2vw;
     }
-    .sep-choose {
-        height: 7vw;
+    button {
+        letter-spacing: 2px;
+        font-size: 1.8em;
+        padding: 1vw 2vw;
+        margin: 3vw auto 0;
     }
 }
+

@@ -20,6 +20,11 @@ font-display:auto;font-style:normal;font-weight:800;font-stretch:normal;
   src: local('Acumin-Variable-Concept'), url('./assets/fonts/Acumin-Variable-Concept.ttf') format('truetype');
 }
 @font-face {
+  font-family: 'Myriad-Variable-Concept';
+  src: local('Myriad-Variable-Concept'), url('./assets/fonts/Myriad-Variable-Concept.otf') format('opentype');
+}
+
+@font-face {
   font-family: 'MyriadPro-BoldSemiExt';
   src: local('MyriadPro-BoldSemiExt'), url('./assets/fonts/MyriadPro-BoldSemiExt.otf') format('truetype');
 }
@@ -42,4 +47,17 @@ font-display:auto;font-style:normal;font-weight:800;font-stretch:normal;
 }
 .App-link {
   color: #61dafb;
+}
+
+h2 {
+  font-family: 'MyriadPro-BoldSemiExt';
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+}
+h3 {
+  font-family: 'MyriadPro-BoldSemiExt';
+  font-size: 1.6em;
+  text-align: center;
+  font-weight: bold;
 }

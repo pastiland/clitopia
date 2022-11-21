@@ -15,7 +15,7 @@ const Bottom = () => {
       <button onClick={() => setOpen(true)}>Open bottom modal</button>
   */}
       <div>
-        <a href="javascript:void(0)" onClick={() => setOpen(true)} class="btn btn--action"><div><span className="strike">DON'T</span> BE A PUSSY</div></a>
+        <a href="javascript:void(0)" onClick={() => setOpen(true)} class="btn btn--action"><div>ACT NOW</div></a>
       </div>
       <BottomModal isOpen={isOpen} onDismiss={() => setOpen(false)}>
 

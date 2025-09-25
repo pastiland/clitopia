@@ -15,11 +15,12 @@
     width: 70vw;
 }
 .sep-team {
-    position:absolute;
+    position: absolute;
     width: 100vw;
     height: 20vw;
-    z-index:2!important;
-    background-color: #ff5bf8;
+    z-index: 2;
+    background-color: var(--color-secondary);
+    margin-top: -5vw;
 }
 .team-container {
     position: relative;

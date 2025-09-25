@@ -3,12 +3,12 @@
     display: flex;
     top: 0;
     left: 0;
-    background: #00fef7;
+    background: var(--color-primary);
     width: 100vw;
     height: 100vh;
     z-index: 99999;
     align-items: center;
-    overflow: 0;
+    overflow: hidden;
 }
 .loading img {
     position: relative;

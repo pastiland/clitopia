@@ -27,20 +27,45 @@ const Home = () => {
     const goToLegendary = useRef(null);
 
     const handleClick = (name) => {
-        if (name === "goToTop") {
-            goToTop.current?.scrollIntoView({ behavior:'smooth', block: 'nearest' });
-        } else if (name === "goToWelcome") {
-            goToWelcome.current?.scrollIntoView({ behavior:'smooth', block: 'nearest' });
-        } else if (name === "goToAbout") {
-            goToAbout.current?.scrollIntoView({ behavior:'smooth', block: 'nearest' });
-        } else if (name === "goToRevolution") {
-            goToRevolution.current?.scrollIntoView({ behavior:'smooth', block: 'center' });
-        } else if (name === "goToTeam") {
-            goToTeam.current?.scrollIntoView({ behavior:'smooth', block: 'nearest' });
-        } else if (name === "goToManifesto") {
-            goToManifesto.current?.scrollIntoView({ behavior:'smooth', block: 'nearest' });
-        } else if (name === "goToLegendary") {
-            goToLegendary.current?.scrollIntoView({ behavior:'smooth', block:'center' });
+        const scrollToSection = (ref, offset = 0) => {
+            if (ref.current) {
+                const element = ref.current;
+                const headerHeight = 70; // Fixed header height
+                const titleOffset = -35; // More negative offset to bring titles even closer to header
+                const elementTop = element.getBoundingClientRect().top + window.pageYOffset;
+                const finalPosition = elementTop - headerHeight - titleOffset + offset;
+
+                window.scrollTo({
+                    top: Math.max(0, finalPosition),
+                    behavior: 'smooth'
+                });
+            }
+        };
+
+        switch (name) {
+            case "goToTop":
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                break;
+            case "goToWelcome":
+                scrollToSection(goToWelcome, 0);
+                break;
+            case "goToAbout":
+                scrollToSection(goToAbout, 40);
+                break;
+            case "goToRevolution":
+                scrollToSection(goToRevolution, 0);
+                break;
+            case "goToTeam":
+                scrollToSection(goToTeam, 0);
+                break;
+            case "goToManifesto":
+                scrollToSection(goToManifesto, 20);
+                break;
+            case "goToLegendary":
+                scrollToSection(goToLegendary, 0);
+                break;
+            default:
+                break;
         }
     };
 
@@ -61,20 +86,20 @@ const Home = () => {
             <Intro />
         </section>
 
-        <section id="welcome" ref={goToWelcome}>
-            <Welcome />
+        <section id="welcome">
+            <Welcome ref={goToWelcome} />
         </section>
 
-        <section id="about" ref={goToAbout}>
-            <About />
+        <section id="about">
+            <About ref={goToAbout} />
         </section>
 
         <section id="video">
             <Video />
         </section>
 
-        <section id="revolution" ref={goToRevolution}>
-            <Revolution />
+        <section id="revolution">
+            <Revolution ref={goToRevolution} />
         </section>
         
         <div className="sep-choose"></div>
@@ -82,16 +107,16 @@ const Home = () => {
             <Choose />
         </section>
 
-        <section id="legendary" ref={goToLegendary}>
-            <Legendary />
+        <section id="legendary">
+            <Legendary ref={goToLegendary} />
         </section>
 
         <section id="dontbe">
             <DontBe />
         </section>
 
-        <section id="manifesto" ref={goToManifesto}>
-            <Manifesto/>
+        <section id="manifesto">
+            <Manifesto ref={goToManifesto}/>
         </section>
 
         <section id="donations">
@@ -103,8 +128,8 @@ const Home = () => {
         </section>
         
         <div className="sep-team"></div>
-        <section id="team" ref={goToTeam}>
-            <Team/>
+        <section id="team">
+            <Team ref={goToTeam}/>
         </section>
         
         <section id="footer">

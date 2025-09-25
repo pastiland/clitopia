@@ -1,12 +1,12 @@
 import React from "react";
 import "./About.css";
 
-const About = ({about}) => {
+const About = React.forwardRef((props, ref) => {
     return <>
-    
+
         <div className="about-container section-container">
             <div className="about-content">
-                <h2 className="section-title" ref={about}>ABOUT</h2>
+                <h2 className="section-title" ref={ref}>ABOUT</h2>
                 <div className="section-desc">
                     <p>Born from an artist who loves candor and quirkiness, Clitopia combines a love of art with new digital media and a desire to help and inspire women all over the world.</p>
                 </div>
@@ -22,5 +22,8 @@ const About = ({about}) => {
             </div>
         </div>
     </>
-}
+});
+
+About.displayName = 'About';
+
 export default About;

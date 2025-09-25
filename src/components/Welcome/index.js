@@ -2,12 +2,12 @@ import React from "react";
 import "./Welcome.css";
 import Eye from "../Eye";
 
-const Welcome = ({welcome}) => {
+const Welcome = React.forwardRef((props, ref) => {
     return <>
-    
+
         <div className="welcome-container section-container">
             <div className="welcome-content">
-                <h2 className="section-title" ref={welcome}>WELCOME</h2>
+                <h2 className="section-title" ref={ref}>WELCOME</h2>
                 <div className="section-desc">
                     <p>Welcome to Clitopia—home of psychedelic vulvas, standing bold, funky and proud.<br/>
                         This is a land of diversity, self acceptance, freedom and love.
@@ -23,5 +23,8 @@ const Welcome = ({welcome}) => {
         </div>
         <Eye />
     </>
-}
+});
+
+Welcome.displayName = 'Welcome';
+
 export default Welcome;

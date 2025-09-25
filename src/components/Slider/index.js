@@ -15,7 +15,7 @@ import Slide6 from "../../assets/img/slider/Slider_6.png"
 // import required swiper modules
 import { Autoplay, EffectCoverflow, Pagination } from "swiper";
 
-export default function App() {
+export default function Slider() {
   return (
     <>
       <Swiper

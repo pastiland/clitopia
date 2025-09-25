@@ -3,13 +3,13 @@
 @font-face {
 font-family:"acumin-pro-condensed";
 src:url("https://use.typekit.net/af/3b3b32/00000000000000003b9acb10/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("woff2"),url("https://use.typekit.net/af/3b3b32/00000000000000003b9acb10/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("woff"),url("https://use.typekit.net/af/3b3b32/00000000000000003b9acb10/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("opentype");
-font-display:auto;font-style:normal;font-weight:800;font-stretch:normal;
+font-display:swap;font-style:normal;font-weight:800;font-stretch:normal;
 }
 
 @font-face {
 font-family:"acumin-pro-extra-condensed";
 src:url("https://use.typekit.net/af/d53db5/00000000000000003b9acb22/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("woff2"),url("https://use.typekit.net/af/d53db5/00000000000000003b9acb22/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("woff"),url("https://use.typekit.net/af/d53db5/00000000000000003b9acb22/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("opentype");
-font-display:auto;font-style:normal;font-weight:800;font-stretch:normal;
+font-display:swap;font-style:normal;font-weight:800;font-stretch:normal;
 }
 
 .tk-acumin-pro-condensed { font-family: "acumin-pro-condensed",sans-serif; }
@@ -18,27 +18,33 @@ font-display:auto;font-style:normal;font-weight:800;font-stretch:normal;
 @font-face {
   font-family: 'Acumin-Variable-Concept';
   src: local('Acumin-Variable-Concept'), url('./assets/fonts/Acumin-Variable-Concept.ttf') format('truetype');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Myriad-Variable-Concept';
   src: local('Myriad-Variable-Concept'), url('./assets/fonts/Myriad-Variable-Concept.otf') format('opentype');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'MyriadPro-BoldSemiExt';
-  src: local('MyriadPro-BoldSemiExt'), url('./assets/fonts/MyriadPro-BoldSemiExt.otf') format('truetype');
+  src: local('MyriadPro-BoldSemiExt'), url('./assets/fonts/MyriadPro-BoldSemiExt.otf') format('opentype');
+  font-display: swap;
 }
 @font-face {
   font-family: "Myriad-Bold";
-  src: local("Myriad-Bold"), url('./assets/fonts/Myriad-Bold.otf') format('truetype');
+  src: local("Myriad-Bold"), url('./assets/fonts/Myriad-Bold.otf') format('opentype');
+  font-display: swap;
 }
 @font-face {
   font-family: "MyriadPro-LightSemiExt";
-  src: local("MyriadPro-LightSemiExt"), url('./assets/fonts/MyriadPro-LightSemiExt.otf') format('truetype');
+  src: local("MyriadPro-LightSemiExt"), url('./assets/fonts/MyriadPro-LightSemiExt.otf') format('opentype');
+  font-display: swap;
 }
 @font-face {
   font-family: "MyriadPro-SemiCn";
-  src: local("MyriadPro-SemiCn"), url('./assets/fonts/MyriadPro-SemiCn.otf') format('truetype');
+  src: local("MyriadPro-SemiCn"), url('./assets/fonts/MyriadPro-SemiCn.otf') format('opentype');
+  font-display: swap;
 }
 
 .App {

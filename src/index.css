@@ -1,11 +1,36 @@
-::-moz-selection { /* Code for Firefox */
-    color: #fff;
-    background: #000;
+/* CSS Variables */
+:root {
+  /* Colors */
+  --color-primary: #75fbf8;
+  --color-secondary: #ea33d0;
+  --color-accent: #00fff8;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-red: #ff0000;
+
+  /* Fonts */
+  --font-primary: 'Myriad Pro', sans-serif;
+  --font-secondary: 'Acumin Variable Concept', sans-serif;
+
+  /* Breakpoints */
+  --breakpoint-mobile: 768px;
+  --breakpoint-tablet: 1024px;
+  --breakpoint-desktop: 1200px;
+
+  /* Common sizes */
+  --section-padding: 4rem 2rem;
+  --border-radius: 8px;
+  --transition: all 0.3s ease;
 }
-  
-  ::selection {
-    color: #fff;
-    background: #000;
+
+::-moz-selection {
+    color: var(--color-white);
+    background: var(--color-black);
+}
+
+::selection {
+    color: var(--color-white);
+    background: var(--color-black);
 }
 body {
     margin: 0;

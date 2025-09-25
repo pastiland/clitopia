@@ -58,14 +58,24 @@ p.cta-headline {
     font-family: sans-serif;
 }
 .cta-container > button {
-    background-color: black;
-    color: white;
+    background-color: var(--color-black);
+    color: var(--color-white);
     font-weight: bold;
     letter-spacing: 2px;
     font-size: 20px;
     padding: 12px 40px;
     margin-top: 6vw;
     cursor: pointer;
+}
+
+/* Section Separators */
+.sep-choose {
+    position: absolute;
+    width: 100vw;
+    height: 15vw;
+    z-index: 1;
+    background-color: var(--color-primary);
+    margin-top: -5vw;
 }
 
 
@@ -78,7 +88,7 @@ p.cta-headline {
         font-size: 3em;
     }
     .section-desc {
-        font-size: 1.25m;
+        font-size: 1.25em;
     }
     p.cta-headline {
         font-size: 2em;

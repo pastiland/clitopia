@@ -2,7 +2,7 @@
     position: relative;
     display: block;
     z-index:2!important;
-    //background-image: url("../../assets/img/bg/bg_02_welcome.png");
+    background-image: url("../../assets/img/bg/bg_02_welcome.png");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 100vw;
@@ -34,8 +34,10 @@
     color: #000;
 }
 #welcome .eye {
-    right: 8vw!important;
-    bottom: 0;
+    right: 8vw;
+    bottom: 5vw;
+    display: block;
+    z-index: 999;
 }
 
 

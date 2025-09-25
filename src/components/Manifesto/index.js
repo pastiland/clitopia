@@ -2,11 +2,11 @@ import React from "react";
 import "./Manifesto.css";
 import Eye from "../Eye";
 
-const Manifesto = ({ menifesto }) => {
+const Manifesto = React.forwardRef((props, ref) => {
     return <>
-        <div className="manifesto-container section-container" ref={menifesto}>
+        <div className="manifesto-container section-container">
             <div className="section-content">
-                <h2 className="section-title" >MANIFESTO</h2>
+                <h2 className="section-title" ref={ref}>MANIFESTO</h2>
                 <div className="section-desc">
                     <ol>
                         <li><span>We are more than just pussies, we have names and faces, thanks!</span></li>
@@ -22,5 +22,8 @@ const Manifesto = ({ menifesto }) => {
             <Eye />
         </div>
     </>
-}
+});
+
+Manifesto.displayName = 'Manifesto';
+
 export default Manifesto;

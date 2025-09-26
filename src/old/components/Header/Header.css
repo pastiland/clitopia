@@ -1,7 +1,9 @@
 #header {
-    display: inline-block;
-    width: 100%;
-    height: 70px; /* Reserve space for the fixed header */
+    position:relative!important;
+    display:inline-block;
+    top:0;
+    left:0;
+    z-index:999!important;
 }
 #header span {
     color: #111!important;

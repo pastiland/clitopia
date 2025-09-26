@@ -11,7 +11,7 @@ import hamburger from "../../assets/img/topnav-hamburger.png";
 import logo from "../../assets/img/logo.png";
 import "./Header.css";
 
-const ResponsiveAppBar = ({ handleClick, showHeader = true }) => {
+const ResponsiveAppBar = ({ handleClick }) => {
     
     const [anchorElNav, setAnchorElNav] = React.useState(null);
 
@@ -23,18 +23,7 @@ const ResponsiveAppBar = ({ handleClick, showHeader = true }) => {
     };
 
     return (
-        <Box sx={{
-            backgroundColor: '#00fff8',
-            height: 'max-content',
-            pt: 1,
-            position: 'fixed',
-            top: 0,
-            left: 0,
-            right: 0,
-            zIndex: 1000,
-            transform: showHeader ? 'translateY(0)' : 'translateY(-100%)',
-            transition: 'transform 0.3s ease-in-out'
-        }}>
+        <Box sx={{ backgroundColor: '#00fff8', height: 'max-content', pt: 1 }}>
             <AppBar position="static" className="appbar" style={{ background: 'transparent' }}>
                 <Container maxWidth="xl" >
                     <Toolbar disableGutters>

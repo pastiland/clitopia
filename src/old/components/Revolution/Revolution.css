@@ -1,0 +1,53 @@
+#revolution {
+    position: relative;
+    display: block;
+    z-index:2!important;
+}
+.revolution-container {
+    position: relative;
+    display: block;
+    width: 100vw;
+    background-color: #393838;
+    color: #fff;
+    padding: 0;
+    margin:0;
+}
+.revolution-content {
+    position: relative;
+    display: inline-block;
+    padding: 8vw 10vw 15vw 10vw;
+    margin:0!important;
+    overflow: hidden;
+}
+.revolution-content .section-title {
+    color: #fff;
+}
+.revolution-content p {
+    color: #fff;
+}
+
+
+@media only screen and (min-width: 576px) {
+    .revolution-content {
+        padding: 15vw 10vw 15vw 10vw;
+    }
+}
+@media only screen and (min-width: 768px) {
+
+    #revolution .section-title {
+        position: relative;
+        margin-top: 0;
+        padding-top: 0;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    
+    .revolution-content {
+        padding: 8vw 10vw 15vw 10vw;
+    }
+    #revolution .section-title {
+        position: relative;
+        padding-bottom:0;
+    }
+}
+

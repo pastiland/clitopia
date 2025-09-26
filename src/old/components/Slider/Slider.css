@@ -1,0 +1,77 @@
+.swiper {
+  width: 100%;
+  padding-top: 5vw;
+  padding-bottom: 15vw;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 70vw !important;
+  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+}
+.swiper-slide:after{
+
+  content:"";
+  position:absolute;
+  z-index:-1;
+/*
+  -webkit-box-shadow:0 0 40px rgba(0,0,0,0.8);
+  box-shadow:0 0 40px rgba(0,0,0,0.8);
+  bottom:0px;
+  left:10%;
+  right:10%;
+  width:80%;
+  height:50%;
+  -moz-border-radius:100%;
+  border-radius:100%;
+*/
+top:100%;
+bottom:0;
+width:120%;
+height:50px;
+left:-10%;
+right:-10%;
+background:-webkit-radial-gradient(50% -3%, ellipse cover, rgba(00, 00, 00, 0.5), rgba(97, 97, 97, 0.0) 40%);
+background:radial-gradient(ellipse at 50% -3%, rgba(00, 00, 00, 0.5), rgba(97, 97, 97, 0.0) 40%);
+
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  object-fit: fill;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* ************************ */
+/* RESPONSIVE MEDIA QUERIES */
+/* ************************ */
+@media only screen and (min-width: 576px) {
+  .swiper {
+    padding-top: 12vw;
+    padding-bottom: 6vw;
+  }
+  .swiper-slide {
+    width: 50vw !important;
+  }
+}
+@media only screen and (min-width: 768px) {  
+  .swiper {
+    padding-top: 6vw;
+    padding-bottom: 8vw;
+  }
+  .swiper-slide {
+    width: 40vw !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .swiper {
+    padding-top: 6vw;
+    padding-bottom: 4vw;
+  }
+  .swiper-slide {
+    width: 30vw !important;
+  }
+}

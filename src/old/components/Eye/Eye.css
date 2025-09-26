@@ -1,0 +1,48 @@
+.eye {
+    position: absolute;
+    width: 12vw;
+    bottom:1vw;
+    right:15vw;
+    z-index: 999!important;
+}
+.eye img {
+    width: 12vw;
+    transition: all .1s ease-out;
+}
+
+/* ************************ */
+/* RESPONSIVE MEDIA QUERIES */
+/* ************************ */
+@media only screen and (min-width: 576px) {
+    .eye img {
+        width: 12vw;
+        right: 12vw;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .eye {
+        width: 10vw;
+        right: 10vw;
+    }
+    .eye img {
+        width: 10vw;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .eye {
+    width: 8vw;
+    right: 8vw;
+    }
+    .eye img {
+        width: 8vw;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .eye {
+        width: 6vw;
+        right: 6vw;
+    }
+    .eye img {
+        width: 6vw;
+    }
+}

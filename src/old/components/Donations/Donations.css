@@ -1,0 +1,64 @@
+#donations {
+    display: block;
+    position: relative;
+    background-image: url("../../assets/img/bg/bg_10_manifesto.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100vw;
+    background-color: #fff;
+    margin-top:-30px;
+    padding-top:0px;
+    padding-bottom:20px;
+    z-index:2!important;
+}
+.donations-container {
+    position: relative;
+    display: block;
+    width: 100vw;
+    padding: 15vw 0 10vw 0;
+    background-color: transparent;
+}
+.donations-content {
+    position: relative;
+    display: block;
+    padding: 0 15vw;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #000;
+    background-color: #fff;
+}
+.donations-content p {
+    color: #000;
+}
+
+/* ************************ */
+/* RESPONSIVE MEDIA QUERIES */
+/* ************************ */
+@media only screen and (min-width: 576px) {
+    .donations-container {
+        padding: 15vw 0 10vw 0;
+    }
+    .donations-content {
+        padding: 0 10vw;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .donations-container {
+        padding: 15vw 0 10vw 0;
+    }
+    .donations-content {
+        padding: 0 10vw;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .donations-container {
+        padding: 13vw 0 5vw 0;
+    }
+    .donations-content {
+        padding: 0 20vw;
+    }
+    #donations .section-title
+    {
+        padding:1vw 0;
+    } 
+}

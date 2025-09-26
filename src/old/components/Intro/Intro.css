@@ -1,0 +1,40 @@
+#intro {
+    position: relative;
+    margin:0;
+    z-index: 999!important;
+    display: contents;
+}
+.intro {
+    position: relative;
+    top: 0;
+    left:0;
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 80vw;
+    margin-bottom: -65vw;
+    z-index: 999!important;
+}
+
+/* ************************ */
+/* RESPONSIVE MEDIA QUERIES */
+/* ************************ */
+@media only screen and (min-width: 400px) {
+    .intro {
+        margin-top: 80vw;
+        margin-bottom: -70vw;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .intro {
+        width: 35vw;
+        margin-top: 60vw;
+        margin-bottom: -60vw;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .intro {
+        width: 25vw;
+        margin-top: 35vw;
+        margin-bottom: -55vw;
+    }
+}

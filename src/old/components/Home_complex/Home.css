@@ -1,0 +1,131 @@
+#Bg_RandomNfts {
+    position: fixed;
+    width: 100vw;
+    background-image: url("../../assets/img/intro-random.png");
+    background-size:100vw;
+    top:0;
+    bottom:0;
+    z-index:-1;
+}
+section {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    z-index: 0;
+    padding: 0;
+    margin: 0;
+    top:0;
+    left:0;
+    display: contents;
+    overflow: hidden;
+}
+.section-container {
+    position:relative;
+    display: block;
+    width: 100vw;
+}
+.section-content {
+    padding: 0 5vw;
+}
+.section-title {
+    display: block;
+    margin: 0 auto;
+    font-family: MyriadPro-BoldSemiExt;
+    font-weight: 800;
+    padding: 5vw;
+    font-size: 2em;
+    text-align: center;
+}
+.section-desc {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    font-family: Myriad-Variable-Concept !important;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.8em;
+    text-align: center;
+    text-justify: inter-word;
+}
+p.cta-headline {
+    display: block!important;
+    font-size: 2em;
+    line-height: 1.5em;
+    font-weight: 800;
+    margin: 0 auto;
+    padding: 0 5vw 2vw 0;
+    font-family: sans-serif;
+}
+.cta-container > button {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 12px 40px;
+    margin-top: 6vw;
+    cursor: pointer;
+}
+
+/* Section Separators */
+.sep-choose {
+    position: absolute;
+    width: 100vw;
+    height: 15vw;
+    z-index: 1;
+    background-color: var(--color-primary);
+    margin-top: -5vw;
+}
+
+
+/* Responsive */
+@media only screen and (min-width: 576px) {
+    .section-content {
+        padding: 0 6vw;
+    }
+    .section-title {
+        font-size: 3em;
+    }
+    .section-desc {
+        font-size: 1.25em;
+    }
+    p.cta-headline {
+        font-size: 2em;
+        line-height: 1.4em;
+        margin-bottom: 1.5vw;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .section-content {
+        padding: 0 8vw;
+    }
+    .section-title {
+        font-size: 4em;
+    }
+    .section-desc {
+        font-size: 1.2em;
+    }
+    p.cta-headline {
+        font-size: 2.5em;
+        line-height: 1.5em;
+        margin-bottom: 0.5vw;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .section-content {
+        padding: 0 10vw;
+    }
+    .section-title {
+        font-size: 3.5em;
+        margin-bottom: 3vw;
+    }
+    .section-desc {
+        font-size: 1.4em;
+    }
+    p.cta-headline {
+        font-size: 3em;
+        line-height: 2em;
+        margin-bottom: 0vw;
+    }
+}

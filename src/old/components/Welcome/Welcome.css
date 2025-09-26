@@ -1,0 +1,94 @@
+#welcome {
+    position: relative;
+    display: block;
+    z-index:2!important;
+    background-image: url("../../assets/img/bg/bg_02_welcome.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100vw;
+    margin-top:45vw;
+}
+.welcome-container {
+    position: relative;
+    display: block;
+    width: 100vw;
+    background-color: #ff00d6;
+    padding: 0;
+    margin-top:5vw;
+}
+.welcome-content {
+    position: relative;
+    display: inline-block;
+    padding: 20vw 15vw 20vw 15vw;
+    background-image: url("../../assets/img/circle-yellow.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: auto 90%;
+    margin:0!important;
+    overflow: hidden;
+}
+.welcome-content .section-title {
+    color: #fff;
+}
+.welcome-content p {
+    color: #000;
+}
+#welcome .eye {
+    right: 8vw;
+    bottom: 5vw;
+    display: block;
+    z-index: 999;
+}
+
+
+@media only screen and (min-width: 576px) {
+    .welcome-content {
+        padding: 15vw 10vw 15vw 10vw;
+    }
+}
+@media only screen and (min-width: 768px) {
+
+    .welcome-content {
+        display: inline-flex;
+        flex-direction: row;
+        padding: 15vw 0 15vw 0;
+    }
+    #welcome .section-title {
+        position: relative;
+        margin-top: 0;
+        padding-top: 0;
+        text-align: right;
+    }
+    #welcome .section-desc {
+        position: relative;
+        display: block;
+        margin: 0;
+        padding-right: 10vw;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    #welcome {
+        padding-bottom:30vw;
+    }
+    .welcome-content {
+        display: inline-flex;
+        flex-direction: row;
+        padding: 10vw 0 13vw 0;
+    }
+    #welcome .section-title {
+        position: relative;
+        display: block;
+        margin-top: 0;
+        padding-top: 0;
+        text-align: right;
+    }
+    #welcome .section-desc {
+        position: relative;
+        display: block;
+        margin: 0;
+    }
+    #welcome .eye {
+        right: 8vw!important;
+    }
+}
+

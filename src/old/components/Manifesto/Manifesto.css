@@ -1,0 +1,125 @@
+#manifesto {
+    position: relative;
+    display: flex;
+    z-index:2!important;
+}
+.manifesto-container {
+    position: relative;
+    display: inline-block;
+    padding: 12vw 5vw 18vw 4vw;
+    z-index:2!important;
+    background-color: #ea33d0;
+    background-image: url("../../assets/img/circle-pink.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 80vw;
+    z-index:999!important;
+}
+ol {
+    counter-reset: item;
+    list-style-type: none;
+    line-height: 1.6em;
+    margin-left: -2vw;
+    padding: 0 0 1vw 4vw;
+    text-align: left;
+}
+ol li {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    vertical-align:text-top;
+    vertical-align:top;
+    padding-bottom: 3vw;
+    
+}
+ol li span {
+    margin-left: 15vw;
+    color: #fff;
+    font-family: Myriad-Bold;
+} 
+ol li:before {
+    content: counter(item) " ";
+    counter-increment: item;
+    color: #000;
+    position: absolute;
+    top: 0;
+    background: #fff;
+    height: 1.8em;
+    width: 1.8em;
+    line-height: 2em;
+    text-align: center;
+    border-radius: 2em;
+    font-weight: 700;
+    display: inline-block;
+}
+#manifesto .eye {
+    display: block;
+    position: absolute;
+    bottom: 6vw;
+    right: 14vw;
+}
+
+
+/* ************************ */
+/* RESPONSIVE MEDIA QUERIES */
+/* ************************ */
+@media only screen and (min-width: 576px) {
+    .manifesto-container {
+        padding: 5vw 12vw;
+        background-size: 60vw;
+    }
+    #manifesto-eye img {
+        width: 10vw;
+    }
+    ol {
+        margin-left: 0;
+        padding: 5vw 5vw 15vw;
+    }
+    ol li span {
+        margin-left: 12vw;
+    } 
+}
+@media only screen and (min-width: 768px) {
+    #manifesto .section-title {
+        margin-bottom: 2vw;
+    }
+    .manifesto-container {
+        padding: 2vw 8vw 18vw 8vw;
+        background-size: 45vw;
+    }
+    ol {
+        margin-left: 0;
+        padding: 0 5vw;
+    }
+    ol li span {
+        margin-left:10vw;
+    } 
+}
+@media only screen and (min-width: 1200px) {
+    #manifesto .section-title {
+        margin-bottom: 4vw;
+        padding-top: 4vw;
+    }
+    .manifesto-container {
+        padding: 0 8vw;
+        padding-bottom: 18vw;
+        background-size: 35vw;
+        background-size:30vw;
+    }
+    ol {
+        margin-left: 0;
+        padding: 0 3vw;
+    }
+    ol li:before {
+        height: 1.4em;
+        width: 1.4em;
+        line-height: 1.6em;
+    }
+    ol li span {
+        margin-left:8vw;
+        font-size: 0.9em;
+    } 
+    #manifesto .eye img {
+        width: 8vw;
+    }
+}
